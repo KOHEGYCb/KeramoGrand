@@ -1,0 +1,163 @@
+/*
+dark        #030408;
+gray        #201f24;
+dark-blue   #4d556a;
+blue        #8898b2;
+light       #d6d6d6;
+light-gray  #b4afab;
+*/
+
+body{
+    background: #030408;
+    color: #b4afab;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*HEADER*/
+.header{
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    outline: 1px solid #b4afab;
+    width: 100%;
+    position: fixed;
+    background: #201f24;
+    z-index: 2;
+}
+
+
+/*LOGO*/
+.logo{
+    position: relative;
+    left: 30px;
+    height: 50px;
+    outline: 1px solid aqua;
+    width: 350px;
+    padding: 10px;
+    float: left;
+}
+
+
+/*BTN_LANG*/
+.btn_lang{
+    float: right;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    margin: 0 10px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    transition: .3s;
+    position: relative;
+    right: 30px;
+}
+
+.btn_lang:hover{
+    background: #242328;
+    cursor: pointer;
+}
+
+.btn_lang ul{
+    display: none;
+}
+
+
+/*BTN_MENU*/
+.btn_menu{
+    float: right;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    margin: 0 10px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    transition: .3s;
+    position: relative;
+    right: 30px;
+}
+
+.btn_menu:hover{
+    background: #242328;
+}
+
+/*.btn_menu a{
+    text-decoration: none;
+    color: #b4afab;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    line-height: 50px;
+}*/
+
+
+/*MENU*/
+div.nav{
+    position: fixed;
+    top: -1000px;
+    width: 100%;
+    min-height: 300px;
+    height: 300px;
+    transition: .5s;
+    z-index: 10;
+}
+
+div.nav>ul{
+    margin: 0;
+    padding: 30px;
+    height: 100%;
+    list-style: none;
+    background: #201f24;
+}
+
+div.nav>ul>li{
+    margin: 10px 0;
+    padding: 0;
+    width: 350px;
+    height: 70px;
+    outline: 1px solid #b4afab;
+    background: #201f24;
+    transition: .3s;
+}
+
+div.nav>ul>li:hover{
+    background: #242328;
+}
+
+div.nav ul li.current{
+
+}
+
+div.nav>ul>li>ul{
+    display: none;
+}
+
+div.nav ul li a{
+    text-decoration: none;
+    color: #b4afab;
+    height: 70px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 70px;
+    text-align: center;
+    font-size: 20px; 
+}
+
+
+
+
+
+.container{
+    height: 10000px;
+    display: block;
+    width: 100px;
+    position: relative;
+    top: 71px;
+    z-index: 1;
+}
