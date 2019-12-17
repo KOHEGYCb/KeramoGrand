@@ -5,6 +5,7 @@ function openMenu() {
     } else {
         document.getElementById("nav").style.height = document.body.clientHeight - 71 - 60;
         document.getElementById("nav").style.top = 71;
+        document.getElementById("place").style.height = 0;
         isMenuOpen = !isMenuOpen;
     }
 }
@@ -19,3 +20,7 @@ btn_addSQLCol.addEventListener('click', openMenu, false);
 
 var btnKol = document.getElementById('kollections');
 btnKol.addEventListener('click', toogleKol, false);
+
+
+document.getElementById("nav").style.height = document.body.clientHeight - 71 - 60;
+        document.getElementById("nav").style.top = 71;
