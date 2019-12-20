@@ -22,5 +22,5 @@ var btnKol = document.getElementById('kollections');
 btnKol.addEventListener('click', toogleKol, false);
 
 
-document.getElementById("nav").style.height = document.body.clientHeight - 71 - 60;
-        document.getElementById("nav").style.top = 71;
+//document.getElementById("nav").style.height = document.body.clientHeight - 71 - 60;
+//        document.getElementById("nav").style.top = 71;
