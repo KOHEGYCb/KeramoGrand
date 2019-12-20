@@ -24,3 +24,12 @@ btn_addSQLCol.addEventListener('click', openMenu, false);
 
 //document.getElementById("nav").style.height = document.body.clientHeight - 71 - 60;
 //        document.getElementById("nav").style.top = 71;
+
+
+removeHref(document.getElementsByClassName('open'));
+
+function removeHref(open){
+    for (var i = 0; i < open.length; i++){
+      open[i].firstChild.removeAttribute('href');
+    }
+}
