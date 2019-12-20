@@ -206,7 +206,7 @@ div.nav ul li a{
 .container{
     height: 10000px;
     display: block;
-    width: 100px;
+    width: 100%;
     position: relative;
     top: 71px;
     z-index: 1;

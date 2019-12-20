@@ -74,13 +74,61 @@ get_page_content();
 // echo get_i18n_navigation(return_page_slug(),0,99,I18N_SHOW_PAGES | I18N_FILTER_CURRENT);
 
 // echo get_i18n_navigation(return_page_slug(),0,99,I18N_SHOW_TITLES | I18N_FILTER_CURRENT);
+    $collections = array();
+    $collection = array(
+        'name' => "",
+        'dir' => "",
+        'img' => "",
+        'link' => "",
+        'color' => ""
+    );
 
+    $field = return_custom_field('collections');
+    $buf = "";
+    $counter = 1;
+    for ($i = 0; $i < strlen($field); $i++){
+        if (ord($field[$i]) == 10){
+            switch ($counter) {
+                case 1:
+                    $collection['name'] = $buf;
+                    break;
+                case 2:
+                    $collection['dir'] = $buf;
+                    break;
+                case 3:
+                    $collection['img'] = $buf;
+                    break;
+                case 4:
+                    $collection['link'] = $buf;
+                    break;
+                case 5:
+                    $collection['color'] = $buf;
+                    break;
+            }
+            $buf = "";
+            $counter++;
+            if ($counter > 5) {
+                $counter = 1;
+                $collections[count($collections)] = $collection;
+            }
+        }else{
+            $buf = $buf . $field[$i];
+        }
+    }
+    $collection['color'] = $buf;
+    $collections[count($collections)] = $collection;
+
+    foreach ($collections as $collection) {
+        foreach ($collection as $key => $value) {
+            echo "$key : $value <br>";
+        }
+    }
 
 ?>
 
-|<div>
+<div>
             <?php
-            echo get_i18n_search_results(array('tags'=>'laminam', 'words'=>' ', 'DATE_FORMAT'=>'%d.%m.%Y', 'max'=>4, 'i18n'=>0, 'lang'=>'ru', 'numWords'=>'1p', 'order'=>'created','showPaging'=>1,'HEADER'=>''));
+            // echo get_i18n_search_results(array('tags'=>'laminam', 'words'=>' ', 'DATE_FORMAT'=>'%d.%m.%Y', 'max'=>4, 'i18n'=>0, 'lang'=>'ru', 'numWords'=>'1p', 'order'=>'created','showPaging'=>1,'HEADER'=>''));
                   
             ?>
 </div>
