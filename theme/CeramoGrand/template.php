@@ -74,76 +74,76 @@ get_page_content();
 // echo get_i18n_navigation(return_page_slug(),0,99,I18N_SHOW_PAGES | I18N_FILTER_CURRENT);
 
 // echo get_i18n_navigation(return_page_slug(),0,99,I18N_SHOW_TITLES | I18N_FILTER_CURRENT);
-    $collections = array();
-    $collection = array(
-        'name' => "",
-        'dir' => "",
-        'img' => "",
-        'link' => "",
-        'color' => ""
-    );
+    // $collections = array();
+    // $collection = array(
+    //     'name' => "",
+    //     'dir' => "",
+    //     'img' => "",
+    //     'link' => "",
+    //     'color' => ""
+    // );
 
-    $field = return_custom_field('collections');
-    $buf = "";
-    $counter = 1;
-    for ($i = 0; $i < strlen($field); $i++){
-        if (ord($field[$i]) == 10){
-            switch ($counter) {
-                case 1:
-                    $collection['name'] = $buf;
-                    break;
-                case 2:
-                    $collection['dir'] = $buf;
-                    break;
-                case 3:
-                    $collection['img'] = $buf;
-                    break;
-                case 4:
-                    $collection['link'] = $buf;
-                    break;
-                case 5:
-                    $collection['color'] = $buf;
-                    break;
-            }
-            $buf = "";
-            $counter++;
-            if ($counter > 5) {
-                $counter = 1;
-                $collections[count($collections)] = $collection;
-            }
-        }else{
-            $buf = $buf . $field[$i];
-        }
-    }
-    $collection['color'] = $buf;
+    // $field = return_custom_field('collections');
+    // $buf = "";
+    // $counter = 1;
+    // for ($i = 0; $i < strlen($field); $i++){
+    //     if (ord($field[$i]) == 10){
+    //         switch ($counter) {
+    //             case 1:
+    //                 $collection['name'] = $buf;
+    //                 break;
+    //             case 2:
+    //                 $collection['dir'] = $buf;
+    //                 break;
+    //             case 3:
+    //                 $collection['img'] = $buf;
+    //                 break;
+    //             case 4:
+    //                 $collection['link'] = $buf;
+    //                 break;
+    //             case 5:
+    //                 $collection['color'] = $buf;
+    //                 break;
+    //         }
+    //         $buf = "";
+    //         $counter++;
+    //         if ($counter > 5) {
+    //             $counter = 1;
+    //             $collections[count($collections)] = $collection;
+    //         }
+    //     }else{
+    //         $buf = $buf . $field[$i];
+    //     }
+    // }
+    // $collection['color'] = $buf;
 
-    $collection['name'] = "Blend";
-    $collection['dir'] = "blend";
-    $collection['img'] = "img83210260.jpg";
-    $collection['link'] = "blend";
-    $collection['color'] = "w";
+    // $collection['name'] = "Blend";
+    // $collection['dir'] = "blend";
+    // $collection['img'] = "img83210260.jpg";
+    // $collection['link'] = "blend";
+    // $collection['color'] = "w";
 
-    $collections[count($collections)] = $collection;
+    // $collections[count($collections)] = $collection;
 
     ?>
-<div id="gallery">
+<!-- <div id="gallery"> -->
 
 <?php
-$innerHTML = "";
-    foreach ($collections as $collection) {
+// $innerHTML = "";
+//     foreach ($collections as $collection) {
         
-        $innerHTML = $innerHTML . "<div class=\"element\" color=\"" . $collection['color'] . "\">";
-        $innerHTML = $innerHTML . "<a href=\"" . get_site_url(false) . "index.php?id=" . $collection['link'] . "\">";
-        $innerHTML = $innerHTML . "<img src=\"" . get_site_url(false) . "data/uploads/collection/" . $collection['dir'] . "/" . $collection['img'] . "\" alt=\"" . $collection['name'] . "\">";
-        $innerHTML = $innerHTML . "<span>" . $collection['name'] . "</span>";
-        $innerHTML = $innerHTML . "</a>";
-        $innerHTML = $innerHTML . "</div>";
+//         $innerHTML = $innerHTML . "<div class=\"element\" color=\"" . $collection['color'] . "\">";
+//         $innerHTML = $innerHTML . "<a href=\"" . get_site_url(false) . "index.php?id=" . $collection['link'] . "\">";
+//         $innerHTML = $innerHTML . "<img src=\"" . get_site_url(false) . "data/uploads/collection/" . $collection['dir'] . "/" . $collection['img'] . "\" alt=\"" . $collection['name'] . "\">";
+//         $innerHTML = $innerHTML . "<span>" . $collection['name'] . "</span>";
+//         $innerHTML = $innerHTML . "</a>";
+//         $innerHTML = $innerHTML . "</div>";
 
-    }
-    echo "$innerHTML";
+//     }
+//     echo "$innerHTML";
 ?>
 
-</div>
+<!-- </div> -->
 <?php
 
 ?>

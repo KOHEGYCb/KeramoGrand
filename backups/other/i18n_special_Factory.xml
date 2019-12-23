@@ -2,8 +2,7 @@
 <specialpage><name>Factory</name><title><![CDATA[keramoFactory]]></title><parent/><tags><![CDATA[]]></tags><slug/><template><![CDATA[template.php]]></template><menu/><headercomponent>&lt;link rel="stylesheet" type="text/css" href="&lt;?php get_theme_url(); ?&gt;/css/gallery.css"&gt;&#13;
  &lt;script src="http://code.jquery.com/jquery-latest.min.js"&gt;&lt;/script&gt;&#13;
 &#13;
-</headercomponent><showcomponent><![CDATA[<?php 
-    $collections = array();
+</headercomponent><showcomponent><![CDATA[    $collections = array();
     $collection = array(
         'name' => "",
         'dir' => "",

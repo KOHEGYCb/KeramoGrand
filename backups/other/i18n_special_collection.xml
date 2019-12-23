@@ -4,7 +4,7 @@
 &#13;
   &lt;!-- Fotorama --&gt;&#13;
   &lt;link href="&lt;?php get_theme_url(); ?&gt;/css/fotorama.css" rel="stylesheet"&gt;&#13;
-  &lt;script src="&lt;?php get_theme_url(); ?&gt;/js/fotorama.js"&gt;&lt;/script&gt;</headercomponent><showcomponent><![CDATA[<?php 
+</headercomponent><showcomponent><![CDATA[<?php 
     $name_field = return_custom_field('names');
     $names = array();
 
@@ -27,8 +27,10 @@
 
     foreach ($names as $key => $name) {
         $link = get_site_url(false) . "data/uploads/collection/" . return_custom_field('dir') . "/" . $name;
-        $colHTML = $colHTML . "<a href=\"" . $link . "\" data-caption=\"One\"><img src=\"" . $link . "\" width=\"180\" height=\"60\"></a>";
+        $colHTML = $colHTML . "<a href=\"" . $link . "\" data-caption=\"$key\"><img src=\"" . $link . "\" width=\"180\" height=\"60\"></a>";
     }
     $colHTML = $colHTML . "</div>";
     echo "$colHTML";
-?>]]></showcomponent><defaultcontent><![CDATA[]]></defaultcontent><fields><item><name><![CDATA[dir]]></name><label><![CDATA[dir]]></label><type><![CDATA[text]]></type></item><item><name><![CDATA[names]]></name><label><![CDATA[names]]></label><type><![CDATA[textarea]]></type></item></fields></specialpage>
+?>
+
+  <script src="<?php get_theme_url(); ?>/js/fotorama.js"></script>]]></showcomponent><defaultcontent><![CDATA[]]></defaultcontent><fields><item><name><![CDATA[dir]]></name><label><![CDATA[dir]]></label><type><![CDATA[text]]></type></item><item><name><![CDATA[names]]></name><label><![CDATA[names]]></label><type><![CDATA[textarea]]></type></item></fields></specialpage>

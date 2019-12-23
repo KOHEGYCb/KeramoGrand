@@ -1,0 +1,50 @@
+#gallery{
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 5%;
+}
+
+#gallery .element{
+	float: left;
+	transition: .3s transform;
+}
+
+#gallery .element:hover{
+	transform: scale(1.05);
+	z-index: 3;
+}
+
+#gallery .element a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	text-decoration: none;
+	color: inherit;
+	border-color: inherit;
+}
+
+#gallery .element a img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	z-index: 1;
+}
+
+#gallery .element a span{
+	position: absolute;
+	font-size: 20px;
+	z-index: 2;
+	color: inherit;
+	line-height: 20px;
+	width: 50%;
+	display: block;
+	height: 20px;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: inherit;
+}
