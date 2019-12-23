@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specialpage><name>Factory</name><title><![CDATA[keramoFactory]]></title><parent/><tags><![CDATA[]]></tags><slug/><template><![CDATA[template.php]]></template><menu/><headercomponent/><defaultcontent><![CDATA[]]></defaultcontent><fields><item><name><![CDATA[collections]]></name><label><![CDATA[collections]]></label><type><![CDATA[textarea]]></type></item></fields></specialpage>
