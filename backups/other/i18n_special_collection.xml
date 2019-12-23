@@ -4,8 +4,6 @@
 &#13;
   &lt;!-- Fotorama --&gt;&#13;
   &lt;link href="&lt;?php get_theme_url(); ?&gt;/css/fotorama.css" rel="stylesheet"&gt;&#13;
-&#13;
-  &lt;script src="&lt;?php get_theme_url(); ?&gt;/js/fotorama.js"&gt;&lt;/script&gt;&#13;
 </headercomponent><showcomponent><![CDATA[<?php 
     $name_field = return_custom_field('names');
     $names = array();
@@ -34,4 +32,5 @@
     $colHTML = $colHTML . "</div>";
     echo "$colHTML";
 ?>
-]]></showcomponent><defaultcontent><![CDATA[]]></defaultcontent><fields><item><name><![CDATA[dir]]></name><label><![CDATA[dir]]></label><type><![CDATA[text]]></type></item><item><name><![CDATA[names]]></name><label><![CDATA[names]]></label><type><![CDATA[textarea]]></type></item></fields></specialpage>
+
+  <script src="<?php get_theme_url(); ?>/js/fotorama.js"></script>]]></showcomponent><defaultcontent><![CDATA[]]></defaultcontent><fields><item><name><![CDATA[dir]]></name><label><![CDATA[dir]]></label><type><![CDATA[text]]></type></item><item><name><![CDATA[names]]></name><label><![CDATA[names]]></label><type><![CDATA[textarea]]></type></item></fields></specialpage>
