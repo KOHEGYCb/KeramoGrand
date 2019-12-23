@@ -116,13 +116,35 @@ get_page_content();
         }
     }
     $collection['color'] = $buf;
+
+    $collection['name'] = "Blend";
+    $collection['dir'] = "blend";
+    $collection['img'] = "img83210260.jpg";
+    $collection['link'] = "blend";
+    $collection['color'] = "w";
+
     $collections[count($collections)] = $collection;
 
+    ?>
+<div id="gallery">
+
+<?php
+$innerHTML = "";
     foreach ($collections as $collection) {
-        foreach ($collection as $key => $value) {
-            echo "$key : $value <br>";
-        }
+        
+        $innerHTML = $innerHTML . "<div class=\"element\" color=\"" . $collection['color'] . "\">";
+        $innerHTML = $innerHTML . "<a href=\"" . get_site_url(false) . "index.php?id=" . $collection['link'] . "\">";
+        $innerHTML = $innerHTML . "<img src=\"" . get_site_url(false) . "data/uploads/collection/" . $collection['dir'] . "/" . $collection['img'] . "\" alt=\"" . $collection['name'] . "\">";
+        $innerHTML = $innerHTML . "<span>" . $collection['name'] . "</span>";
+        $innerHTML = $innerHTML . "</a>";
+        $innerHTML = $innerHTML . "</div>";
+
     }
+    echo "$innerHTML";
+?>
+
+</div>
+<?php
 
 ?>
 

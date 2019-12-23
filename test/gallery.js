@@ -8,11 +8,14 @@ function resizeGallery(){
 	if (galleryWidth > 700){
 		amount++;
 	}
-	if (galleryWidth > 1050){
+	if (galleryWidth > 1200){
 		amount++;
 	}
-	if (galleryWidth > 1400){
+	if (galleryWidth > 1600){
 		amount++;
+	}
+	if (galleryWidth > 1750){
+		// amount++;
 	}
 
 	for (var i = galleryElements.length - 1; i >= 0; i--) {
