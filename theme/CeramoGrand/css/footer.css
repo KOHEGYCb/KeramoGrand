@@ -1,0 +1,90 @@
+.footer{
+	background: #201f24;
+	border-top: 1px solid #b4afab;
+}
+
+
+
+
+
+
+
+.footerURL{
+	padding: 15px;
+	width: 168px;
+	margin: auto;
+}
+
+.footerURL a{
+	color: #b4afab;
+	font-size: 24px;
+	text-decoration: none;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+
+
+
+
+
+
+.upBlock,
+.downBlock{
+	height: 30px;
+	width: 100%;
+}
+
+
+
+
+
+
+.footerInfoBlock{
+	height: 75px;
+}
+
+
+.footerLogo{
+	width: 25%;
+	float: left;
+	height: 75px;
+	border-right: 1px solid #b4afab;
+	padding: 0 4.16%;
+}
+
+.footerLogo img{
+
+}
+
+
+
+
+
+
+.footerPhone{
+	width: 25%;
+	float: left;
+	height: 75px;
+	border-right: 1px solid #b4afab;
+	padding: 0 4.16%;
+}
+
+.footerPhone span{
+	font-size: 20px;
+}
+
+
+
+
+.footerLocation{
+	width: 25%;
+	float: left;
+	height: 75px;
+	padding: 0 4.1%;
+}
+
+.footerLocation span{
+	font-size: 20px;
+}
