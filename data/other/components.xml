@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<channel><item><title><![CDATA[footer]]></title><slug>footer</slug><value><![CDATA[&lt;div class=&quot;footer&quot;&gt;           
+<channel><item><title><![CDATA[footer]]></title><slug>footer</slug><value><![CDATA[&lt;div class=&quot;footer&quot;&gt;
+            
             &lt;div class=&quot;upBlock&quot;&gt;&lt;/div&gt;
             &lt;div class=&quot;footerInfoBlock&quot;&gt;
                 &lt;div class=&quot;footerLogo&quot;&gt;&lt;a href=&quot;&lt;?php get_site_url(); ?&gt;&quot;&gt;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/logo_gr.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;

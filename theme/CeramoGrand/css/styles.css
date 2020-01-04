@@ -9,7 +9,9 @@ light-gray  #b4afab;
 */
 
 body{
-    background: #030408;
+    background: #030408 url("../images/bg.jpg");
+    background-position: center;
+    background-size: cover;
     color: #b4afab;
     margin: 0;
     padding: 0;
@@ -35,10 +37,15 @@ body{
     position: relative;
     left: 30px;
     height: 50px;
-    outline: 1px solid aqua;
-    width: 350px;
-    padding: 10px;
+    /*outline: 1px solid aqua;*/
+    /*width: 350px;*/
+    /*padding: 10px;*/
     float: left;
+}
+.logo img{
+    height: 70px;
+    padding: 0;
+    margin: 0;
 }
 
 
