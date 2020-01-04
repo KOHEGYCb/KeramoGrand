@@ -13,17 +13,9 @@ function openMenu() {
     }
 }
 
-function toogleKol() {
-    
-}
-
 var isMenuOpen = false;
 var btn_addSQLCol = document.getElementById('btn_menu');
 btn_addSQLCol.addEventListener('click', openMenu, false);
-
-
-//document.getElementById("nav").style.height = document.body.clientHeight - 71 - 60;
-//        document.getElementById("nav").style.top = 71;
 
 
 removeHref(document.getElementsByClassName('open'));
@@ -33,3 +25,5 @@ function removeHref(open){
       open[i].firstChild.removeAttribute('href');
     }
 }
+
+document.getElementById('content').style.minHeight = "" + (document.documentElement.clientHeight - document.getElementsByClassName("header")[0].clientHeight - document.getElementsByClassName("footer")[0].clientHeight - 32) + "px";
