@@ -26,6 +26,10 @@ if (!defined('IN_GS')) {
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="<?php get_theme_url(); ?>/css/styles.css" media="all" />
         <link rel="stylesheet" type="text/css" href="<?php get_theme_url(); ?>/css/footer.css" media="all" />
+        
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <link href="<?php get_theme_url(); ?>/css/fotorama.css" rel="stylesheet">
+
 
     </head>
     <body>
@@ -41,8 +45,19 @@ if (!defined('IN_GS')) {
 
 
         <div id="content">
-            <h1 class="pageTitle"><?php get_page_title(); ?></h1>
-            <span class="separatore"></span>
+            <!-- <h1 class="pageTitle">-->
+                <?php 
+                // get_page_title();
+                 ?>
+                <!--</h1> -->
+            <!-- <span class="separatore"></span> -->
+            <div id="slider" style="overflow: hidden;">
+                <div class="fotorama" data-width="100%" data-height="100%" data-fit="cover" data-nav="none" data-loop="true" data-autoplay="true">
+                    <img src="<?php get_theme_url(); ?>/images/1.jpg">
+                    <img src="<?php get_theme_url(); ?>/images/1.jpg">
+                    <img src="<?php get_theme_url(); ?>/images/1.jpg">
+                </div>
+            </div>
 <?php 
 
 get_page_content(); 
@@ -60,4 +75,5 @@ get_page_content();
 
     </body>
     <script src="<?php get_theme_url(); ?>/js/js.js"></script>
+    <script src="<?php get_theme_url(); ?>/js/fotorama.js"></script>
 </html>
