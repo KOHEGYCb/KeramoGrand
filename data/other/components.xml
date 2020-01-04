@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<channel><item><title><![CDATA[header]]></title><slug>header</slug><value><![CDATA[&lt;div class=&quot;header&quot;&gt;
-    &lt;div class=&quot;logo&quot;&gt;logo&lt;/div&gt;
+<channel><item><title><![CDATA[footer]]></title><slug>footer</slug><value><![CDATA[&lt;div class=&quot;footer&quot;&gt;
+            
+            &lt;div class=&quot;upBlock&quot;&gt;&lt;/div&gt;
+            &lt;div class=&quot;footerInfoBlock&quot;&gt;
+                &lt;div class=&quot;footerLogo&quot;&gt;&lt;a href=&quot;&lt;?php get_site_url(); ?&gt;&quot;&gt;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/logo_gr.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+                &lt;div class=&quot;footerPhone&quot;&gt;&lt;span&gt;Телефон: &lt;br/&gt;+375 (44) 147-67-68&lt;/span&gt;&lt;/div&gt;
+                &lt;div class=&quot;footerLocation&quot;&gt;&lt;span&gt;Адрес: &lt;br/&gt;г. Минск, ул. Мазурова, 1 &lt;br/&gt;ТЦ &quot;Камелот&quot; первый этаж, левое крыло&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;downBlock&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;]]></value></item><item><title><![CDATA[footer_en]]></title><slug>footer_en</slug><value><![CDATA[&lt;div class=&quot;footer&quot;&gt;
+            &lt;div class=&quot;footerURL&quot;&gt;&lt;a href=&quot;&lt;?php get_site_url(); ?&gt;&quot;&gt;CeramoGrand&lt;/a&gt;&lt;/div&gt;
+            &lt;div class=&quot;upBlock&quot;&gt;&lt;/div&gt;
+            &lt;div class=&quot;footerInfoBlock&quot;&gt;
+                &lt;div class=&quot;footerLogo&quot;&gt;&lt;a href=&quot;&lt;?php get_site_url(); ?&gt;&quot;&gt;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/logo_gr.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+                &lt;div class=&quot;footerPhone&quot;&gt;&lt;span&gt;Phone: &lt;br/&gt;+375 (44) 147-67-68&lt;/span&gt;&lt;/div&gt;
+                &lt;div class=&quot;footerLocation&quot;&gt;&lt;span&gt;Address: &lt;br/&gt;Minsk, Mazurova str., 1 &lt;br/&gt;Shopping center &quot;Camelot&quot; first floor&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;downBlock&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;]]></value></item><item><title><![CDATA[header]]></title><slug>header</slug><value><![CDATA[&lt;div class=&quot;header&quot;&gt;
+    &lt;div class=&quot;logo&quot;&gt;&lt;a href=&quot;&lt;?php get_site_url(); ?&gt;&quot;&gt;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/logo_gr.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div class=&quot;btn_menu&quot; id=&quot;btn_menu&quot;&gt;меню&lt;/div&gt;
     &lt;div class=&quot;btn_lang&quot;&gt;язык
         &lt;ul&gt;
@@ -9,7 +27,7 @@
         &lt;/ul&gt;
     &lt;/div&gt;
 &lt;/div&gt;]]></value></item><item><title><![CDATA[header_en]]></title><slug>header_en</slug><value><![CDATA[&lt;div class=&quot;header&quot;&gt;
-    &lt;div class=&quot;logo&quot;&gt;logo&lt;/div&gt;
+    &lt;div class=&quot;logo&quot;&gt;&lt;a href=&quot;&lt;?php get_site_url(); ?&gt;&quot;&gt;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/logo_gr.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;div class=&quot;btn_menu&quot; id=&quot;btn_menu&quot;&gt;menu&lt;/div&gt;
     &lt;div class=&quot;btn_lang&quot;&gt;lang
         &lt;ul&gt;
@@ -17,14 +35,4 @@
             &lt;li&gt;&lt;a href=&quot;&lt;?php echo htmlspecialchars(return_i18n_lang_url(&#039;en&#039;)); ?&gt;&quot;&gt;EN&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
     &lt;/div&gt;
-&lt;/div&gt;]]></value></item><item><title><![CDATA[Sidebar]]></title><slug>sidebar</slug><value><![CDATA[&lt;h2&gt;GetSimple Features&lt;/h2&gt;
-&lt;ul&gt; 
-&lt;li&gt;XML based data storage&lt;/li&gt; 
-&lt;li&gt;Best-in-Class User Interface&lt;/li&gt; 
-&lt;li&gt;&#039;Undo&#039; protection &amp;amp; backups&lt;/li&gt; 
-&lt;li&gt;Easy to theme&lt;/li&gt; 
-&lt;li&gt;Great documentation&lt;/li&gt; 
-&lt;li&gt;Growing community&lt;/li&gt; 
-&lt;/ul&gt;
-&lt;p&gt;This is your sidebar text. Please change me in &lt;em&gt;Theme -&gt; Edit Components&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://get-simple.info/download/&quot;&gt;Download the Latest GetSimple&lt;/a&gt;&lt;/p&gt;]]></value></item><item><title><![CDATA[Tagline]]></title><slug>tagline</slug><value><![CDATA[kkk]]></value></item></channel>
+&lt;/div&gt;]]></value></item></channel>
