@@ -2,7 +2,7 @@
 <specialpage><name>Factory</name><title><![CDATA[keramoFactory]]></title><parent/><tags><![CDATA[]]></tags><slug/><template><![CDATA[template.php]]></template><menu/><headercomponent>&lt;link rel="stylesheet" type="text/css" href="&lt;?php get_theme_url(); ?&gt;/css/gallery.css"&gt;&#13;
  &lt;script src="http://code.jquery.com/jquery-latest.min.js"&gt;&lt;/script&gt;&#13;
 &#13;
-</headercomponent><showcomponent><![CDATA[<?php get_page_content(); ?>
+</headercomponent><showcomponent><![CDATA[<p><?php get_custom_field('headtext'); ?></p>
 
 <?php 
     $collections = array();
@@ -47,7 +47,9 @@
         }
     }
     $collection['color'] = $buf;
-    $collections[count($collections)] = $collection;
+    if (!$collection['name'] == "") {
+        $collections[count($collections)] = $collection;
+    }
     ?>
 <div id="gallery">
 
@@ -68,4 +70,6 @@ $innerHTML = "";
 
 </div>
 
-  <script src="<?php get_theme_url(); ?>/js/gallery.js"></script>]]></showcomponent><defaultcontent><![CDATA[]]></defaultcontent><fields><item><name><![CDATA[collections]]></name><label><![CDATA[collections]]></label><type><![CDATA[textarea]]></type></item></fields></specialpage>
+  <script src="<?php get_theme_url(); ?>/js/gallery.js"></script><?php get_page_content(); ?>
+
+]]></showcomponent><defaultcontent><![CDATA[]]></defaultcontent><fields><item><name><![CDATA[collections]]></name><label><![CDATA[collections]]></label><type><![CDATA[textarea]]></type></item><item><name><![CDATA[headtext]]></name><label><![CDATA[headtext]]></label><type><![CDATA[textarea]]></type></item></fields></specialpage>
