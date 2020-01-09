@@ -1,0 +1,150 @@
+@font-face{
+	font-family: "CD";
+	src: url('../fonts/15278.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "text";
+	src: url('../fonts/ERASDEMI.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.pre_bg{
+	background: #201f24;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	font-size: 3em;
+	overflow: hidden;
+	z-index: 1000;
+}
+.pre_bg_loaded{
+	animation: preloader .5s .7s;
+	animation-fill-mode: forwards;	
+}
+.pre_bg div.text{
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-55%, -45%);
+	text-align: center;
+	width: 100px;
+	height: 130px;
+	transition: .3s;
+	overflow: hidden;
+	font-family: "text";
+	z-index: 1;
+}
+.pre_bg_text_loaded{
+	animation: text 0.01s linear;
+	animation-fill-mode: forwards;
+}
+.pre_bg div.text span{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.pre_bg div.text::before,
+.pre_bg div.text::after{
+	content: "";
+	position: absolute;
+	width: 90%;
+	left: 0;
+	margin: auto;
+	border: 3px solid #b4afab;
+}
+.pre_bg div.text::before{
+	top: 0;
+}
+.pre_bg div.text::after{
+	bottom: 0;
+}
+
+
+.pre_bg div.c,
+.pre_bg div.d{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	width: 130px;
+	height: 200px;
+	transition: .3s;
+	/*overflow: hidden;*/
+	font-size: 3em;
+	font-family: "CD";
+	background: #201f24;
+	z-index: 10;
+}
+
+.pre_bg div.c{
+	margin-left: -0.4em;
+	/*animation: c .9s linear;*/
+	/*animation-fill-mode: forwards;*/
+}
+.pre_bg div.d{
+	margin-left: 0.4em;
+	/*animation: d .9s linear;*/
+	/*animation-fill-mode: forwards;*/
+}
+
+.pre_bg_c_loaded{
+	animation: c .5s linear;
+	animation-fill-mode: forwards;
+}
+
+.pre_bg_d_loaded{
+	animation: d .5s linear;
+	animation-fill-mode: forwards;
+}
+
+@keyframes text{
+	from{
+		width: 100px;
+	}
+	to{
+		width: 200px;
+	}
+}
+
+@keyframes c{
+	from{
+		margin-left: -0.4em;
+	}
+	to{
+		margin-left: -1.1em;
+	}
+}
+@keyframes d{
+	from{
+		margin-left: 0.4em;
+	}
+	to{
+		margin-left: 1.1em;
+	}
+}
+
+@keyframes preloader{
+	0%{
+		opacity: 1;
+		width: 100%;
+		height: 100%;
+	}
+	99%{
+		opacity: 0;
+		width: 100%;
+		height: 100%;
+	}
+	100%{
+		opacity: 0;
+		width: 0;
+		height: 0;
+	}
+}
