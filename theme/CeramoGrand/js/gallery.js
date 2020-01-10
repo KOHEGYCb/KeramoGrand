@@ -24,7 +24,7 @@ function resizeGallery(){
 	}
 }
 
-resizeGallery();
+window.addEventListener('load', function (){resizeGallery();});
 $(window).on('resize', function () {
     resizeGallery();
 });
