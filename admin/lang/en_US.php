@@ -295,6 +295,7 @@ $i18n = array(
 "TAB_THEME"					=>	"<em>T</em>heme",
 "TAB_BACKUPS"				=>	"<em>B</em>ackups",
 "PLUGINS_NAV" 			=>  "Plu<em>g</em>ins",
+"NEWS_NAV" 				=>  "News",
 "TAB_SETTINGS"			=>	"<em>S</em>ettings",
 "TAB_SUPPORT"				=>	"Supp<em>o</em>rt",
 "TAB_LOGOUT"				=>	"<em>L</em>ogout",

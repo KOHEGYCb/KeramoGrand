@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usage>
+    <furniture>
+        <item id="1">
+            <name></name>
+            <description>Облицовка стен и пола/ Cotto D`este/   cementproject-color00-cem-5,5mm, -color40-cem-5,5m</description>
+            <imageUrl>cde-cementproject-color00-cem-55mm-color40-cem-55mm-office-001.jpg</imageUrl>
+            <collections>
+            	<collection>cement-project</collection>
+            </collections>
+            <usages>
+                <use lang="ru">Облицовка_стен</use>
+                <use lang="ru">Облицовка_пола</use>
+            </usages>
+        </item>
+        <item id="2">
+            <name></name>
+            <description>Облицовка стен и пола/ Cotto D`este/   cementproject-color00-cem-5,5mm, -color40-cem-5,5mm</description>
+            <imageUrl>cde-cementproject-color00-cem-55mm-color40-cem-55mm-office-002.jpg</imageUrl>
+            <collections>
+            	<collection>cement-project</collection>
+            </collections>
+            <usages>
+                <use lang="ru">Облицовка_стен</use>
+                <use lang="ru">Облицовка_пола</use>
+            </usages>
+        </item>
+        <item id="3">
+            <name></name>
+            <description>Облицовка стен и пола/ Cotto D`este/ cementproject-color20-cem5,5mm</description>
+            <imageUrl>cde-cementproject-color20-cem-work-living-1.jpg</imageUrl>
+            <collections>
+            	<collection>cement-project</collection>
+            </collections>
+            <usages>
+                <use lang="ru">Облицовка_стен</use>
+                <use lang="ru">Облицовка_пола</use>
+            </usages>
+        </item>
+        <item id="4">
+            <name></name>
+            <description>Облицовка пола/ Cotto D`este/ black_white_black silk</description>
+            <imageUrl>cottodeste_black_white_am-biente_black.jpg</imageUrl>
+            <collections>
+            	<collection>black-white</collection>
+            </collections>
+            <usages>
+                <use lang="ru">Облицовка_пола</use>
+            </usages>
+        </item>
+        <item id="5">
+            <name></name>
+            <description>Облицовка пола/ Cotto D`este/ black_white_black silk</description>
+            <imageUrl>cottodeste_black_white_am-biente_black_particolare_4.jpg</imageUrl>
+            <collections>
+            	<collection>black-white</collection>
+            </collections>
+            <usages>
+                <use lang="ru">Облицовка_пола</use>
+            </usages>
+        </item>
+        <item id="6">
+            <name></name>
+            <description>Облицовка пола/ Cotto D`este/ cadore_malga_rett</description>
+            <imageUrl>cottodeste_cadore_ambiente_malga_rett.jpg</imageUrl>
+            <collections>
+            	<collection></collection>
+            </collections>
+            <usages>
+                <use lang="ru">Облицовка_пола</use>
+            </usages>
+        </item>
+        <item id="7">
+            <name></name>
+            <description>Облицовка пола/ Cotto D`este/ exedra_ambiente_amadeus_silk_rett</description>
+            <imageUrl>cottodeste_exedra_ambiente_amadeus_silk_rett.jpg</imageUrl>
+            <collections>
+            	<collection>exedra</collection>
+            </collections>
+            <usages>
+                <use lang="ru">Облицовка_пола</use>
+            </usages>
+        </item>
+        <item id="8">
+            <name></name>
+            <description>Облицовка стен и пола/ Cotto D`este/ exedra_calacatta</description>
+            <imageUrl>cottodeste_exedra_ambiente_calacatta_4.jpg</imageUrl>
+            <collections>
+            	<collection>exedra</collection>
+            </collections>
+            <usages>
+                <use lang="ru">Облицовка_стен</use>
+                <use lang="ru">Облицовка_пола</use>
+            </usages>
+        </item>
+        <item id="9">
+            <name></name>
+            <description>Облицовка стен и пола/ Cotto D`este/ exedra_calacatta_glossy</description>
+            <imageUrl>cottodeste_exedra_ambiente_calacatta_glossy.jpg</imageUrl>
+            <collections>
+            	<collection>exedra</collection>
+            </collections>
+            <usages>
+                <use lang="ru">Облицовка_стен</use>
+                <use lang="ru">Облицовка_пола</use>
+            </usages>
+        </item>
+        <item id="10">
+            <name></name>
+            <description>Облицовка пола/ Cotto D`este/ exedra_calacatta</description>
+            <imageUrl>cottodeste_exedra_ambiente_calacatta_lux.jpg</imageUrl>
+            <collections>
+            	<collection>exedra</collection>
+            </collections>
+            <usages>
+                <use lang="ru">Облицовка_пола</use>
+            </usages>
+        </item>
+        <item id="11">
+            <name></name>
+            <description>Облицовка стен/ Cotto D`este/ exedra_calacatta</description>
+            <imageUrl>cottodeste_exedra_ambiente_calacatta_particolare.jpg</imageUrl>
+            <collections>
+            	<collection>exedra</collection>
+            </collections>
+            <usages>
+                <use lang="ru">Облицовка_стен</use>
+            </usages>
+        </item>
+        <item id="12">
+            <name></name>
+            <description>Облицовка стен и пола/ Cotto D`este/ exedra_pulpis</description>
+            <imageUrl>cottodeste_exedra_ambiente_pulpis_2.jpg</imageUrl>
+            <collections>
+            	<collection>exedra</collection>
+            </collections>
+            <usages>
+                <use lang="ru">Облицовка_стен</use>
+                <use lang="ru">Облицовка_пола</use>
+            </usages>
+        </item>
+        <item id="13">
+            <name></name>
+            <description>Столешница/ Cotto D`este/ limestone slate</description>
+            <imageUrl>cottodeste_limestone_ambiente_slate_particolare.jpg</imageUrl>
+            <collections>
+            	<collection>limestone</collection>
+            </collections>
+            <usages>
+                <use lang="ru">Стол_обеденный</use>
+            </usages>
+        </item>
+        <item id="14">
+            <name></name>
+            <description>Облицовка пола/ Cotto D`este/ materica ardesia</description>
+            <imageUrl>cottodeste_materica_ambiente_ardesia_lack_2.jpg</imageUrl>
+            <collections>
+            	<collection>materica</collection>
+            </collections>
+            <usages>
+                <use lang="ru">Облицовка_пола</use>
+            </usages>
+        </item>
+        <item id="15">
+            <name></name>
+            <description>Облицовка стен и пола / Cotto D`este/ materica bianco</description>
+            <imageUrl>cottodeste_materica_ambiente_bianco_lack_rett.jpg</imageUrl>
+            <collections>
+            	<collection>materica</collection>
+            </collections>
+            <usages>
+                <use lang="ru">Облицовка_стен</use>
+                <use lang="ru">Облицовка_пола</use>
+            </usages>
+        </item>
+        <item id="16">
+            <name></name>
+            <description>Облицовка пола/ Cotto D`este/ materica cemento</description>
+            <imageUrl>cottodeste_materica_ambiente_cemento_3.jpg</imageUrl>
+            <collections>
+            	<collection>materica</collection>
+            </collections>
+            <usages>
+                <use lang="ru">Облицовка_пола</use>
+            </usages>
+        </item>
+        <item id="17">
+            <name></name>
+            <description>Облицовка пола/ Cotto D`este/ metal platinum</description>
+            <imageUrl>cottodeste_metal_ambiente_platinum_1.jpg</imageUrl>
+            <collections>
+            	<collection>metal</collection>
+            </collections>
+            <usages>
+                <use lang="ru">Облицовка_пола</use>
+            </usages>
+        </item>
+        <item id="18">
+            <name></name>
+            <description>Облицовка стен и пола / Cotto D`este/ exedra rain_grey_glossy</description>
+            <imageUrl>cottodeste_rain_grey_glossy_amb_100x300-100x100.jpg</imageUrl>
+            <collections>
+            	<collection>exedra</collection>
+            </collections>
+            <usages>
+                <use lang="ru">Облицовка_стен</use>
+                <use lang="ru">Облицовка_пола</use>
+            </usages>
+        </item>
+        <item id="19">
+            <name></name>
+            <description>Облицовка пола, камин / Cotto D`este/ elegance-via-condotti-</description>
+            <imageUrl>elegance-via-condotti-5plus_amb.jpg</imageUrl>
+            <collections>
+            	<collection>elegance</collection>
+            </collections>
+            <usages>
+                <use lang="ru">Камин</use>
+                <use lang="ru">Облицовка_пола</use>
+            </usages>
+        </item>
+        <item id="20">
+            <name></name>
+            <description>Облицовка стен и пола / Cotto D`este/ Limestone slate, Limestone clay</description>
+            <imageUrl>slate_natural_100x300.jpg</imageUrl>
+            <collections>
+            	<collection>limestone</collection>
+            </collections>
+            <usages>
+                <use lang="ru">Облицовка_стен</use>
+                <use lang="ru">Облицовка_пола</use>
+            </usages>
+        </item>
+        <item id="21">
+            <name></name>
+            <description>Стол обеденный из керамогранита/ Laminam/ Bianco Statuario Venato</description>
+            <imageUrl>bsv-2.jpg</imageUrl>
+            <collections>
+                <collection>naturali</collection>
+            </collections>
+            <usages>
+                <use lang="ru">Стол_обеденный</use>
+            </usages>
+        </item>
+        <item id="22">
+            <name></name>
+            <description>Стол обеденный из керамогранита/ Laminam/ Bianco Statuario Venato</description>
+            <imageUrl>bsv-1.jpg</imageUrl>
+            <collections>
+                <collection>naturali</collection>
+            </collections>
+            <usages>
+                <use lang="ru">Стол_обеденный</use>
+            </usages>
+        </item>
+        <item id="23">
+            <name></name>
+            <description>Стол обеденный из керамогранита/ Laminam/ Pietra di savoia Antracite</description>
+            <imageUrl>pds-antracite-aura2-4.jpg</imageUrl>
+            <collections>
+                <collection>pietra-di-savoia</collection>
+            </collections>
+            <usages>
+                <use lang="ru">Стол_обеденный</use>
+            </usages>
+        </item>
+        <item id="24">
+            <name></name>
+            <description>Стол обеденный из керамогранита/ Laminam/ Pietra di savoia Antracite</description>
+            <imageUrl>pds-antracite-aura2-5.jpg</imageUrl>
+            <collections>
+                <collection>pietra-di-savoia</collection>
+            </collections>
+            <usages>
+                <use lang="ru">Стол_обеденный</use>
+            </usages>
+        </item>
+    </furniture>
+    <facade>
+        
+    </facade>
+    <inside>
+        
+    </inside>
+</usage>

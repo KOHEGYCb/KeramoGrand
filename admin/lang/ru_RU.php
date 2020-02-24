@@ -539,10 +539,19 @@ $i18n = array(
 /*
  * Additions for 3.1
  */
-"DEBUG_CONSOLE" => 'Консоль ошибок'
+"DEBUG_CONSOLE" => 'Консоль ошибок',
+
+/*
+my translaters
 
 
+*/
+"NEWS_NAV" 				=>  "Новости",
+"USAGE_NAV" 				=>  "Использование"
 
 );
+
+
+
 
 ?>

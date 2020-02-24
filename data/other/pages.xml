@@ -1,38 +1,252 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<channel><item><pubDate><![CDATA[Thu, 26 Dec 2019 18:52:17 +0100]]></pubDate><title><![CDATA[Calce]]></title><url><![CDATA[calce]]></url><metad><![CDATA[]]></metad><menu><![CDATA[Calce]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[laminam-1]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Fri, 20 Dec 2019 00:20:43 +0100]]></creDate><user><![CDATA[admin]]></user><meta><![CDATA[_special_collection, laminam, calce]]></meta><special><![CDATA[collection]]></special><dir><![CDATA[calce]]></dir><names><![CDATA[C1:img12430648.jpg
-C2:img27365662.jpg
-C3:img34935222.jpg
-C4:img36724650.jpg
-C5:img44754396.jpg
-C6:img70441445.jpg]]></names><slug><![CDATA[calce]]></slug><filename><![CDATA[calce.xml]]></filename></item><item><pubDate><![CDATA[Thu, 26 Dec 2019 12:29:00 +0300]]></pubDate><title><![CDATA[Использование]]></title><url><![CDATA[ispolzovanie]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Использование]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Thu, 26 Dec 2019 12:28:15 +0300]]></creDate><user><![CDATA[admin]]></user><menuOrder><![CDATA[4]]></menuOrder><slug><![CDATA[ispolzovanie]]></slug><filename><![CDATA[ispolzovanie.xml]]></filename></item><item><pubDate><![CDATA[Fri, 27 Dec 2019 11:53:11 +0300]]></pubDate><title><![CDATA[Внутри]]></title><url><![CDATA[vnutri]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Внутри]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[ispolzovanie]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Thu, 26 Dec 2019 12:28:41 +0300]]></creDate><user><![CDATA[admin]]></user><menuOrder><![CDATA[1]]></menuOrder><slug><![CDATA[vnutri]]></slug><filename><![CDATA[vnutri.xml]]></filename></item><item><pubDate><![CDATA[Thu, 26 Dec 2019 17:42:07 +0100]]></pubDate><title><![CDATA[Laminam]]></title><url><![CDATA[laminam-1]]></url><metad><![CDATA[]]></metad><menu><![CDATA[Laminam]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[page-11]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Fri, 20 Dec 2019 12:39:16 +0300]]></creDate><user><![CDATA[admin]]></user><meta><![CDATA[_special_Factory]]></meta><special><![CDATA[Factory]]></special><collections><![CDATA[Blend
+<channel><item><pubDate><![CDATA[Sat, 25 Jan 2020 23:57:41 +0300]]></pubDate><title><![CDATA[Calce]]></title><url><![CDATA[calce]]></url><metad><![CDATA[]]></metad><menu><![CDATA[Calce]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[laminam]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Sat, 25 Jan 2020 23:56:13 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[laminam_calce]]></dir><names><![CDATA[Calce - Antracite:calce_-_antracite.jpg
+Calce - Avorio:calce_-_avorio.jpg
+Calce - Bianco:calce_-_bianco.jpg
+Calce - Grigio:calce_-_grigio.jpg
+Calce - Nero:calce_-_nero.jpg
+Calce - Tortora:calce_-_tortora.jpg]]></names><menuOrder><![CDATA[2]]></menuOrder><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[calce]]></slug><filename><![CDATA[calce.xml]]></filename></item><item><pubDate><![CDATA[Sun, 19 Jan 2020 03:37:09 +0300]]></pubDate><title><![CDATA[Lithos]]></title><url><![CDATA[lithos]]></url><metad><![CDATA[]]></metad><menu><![CDATA[]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[kerlite]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Sun, 19 Jan 2020 03:37:09 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[cottodeste_lithos]]></dir><names><![CDATA[Lithos Carbon Naturale:cde-lithos-carbon-naturale-120x260-65mm-003.jpg
+Lithos Carbon Soft:cde-lithos-carbon-soft-120x260-65mm-006.jpg
+Lithos Desert Naturale:cde-lithos-desert-naturale-120x260-65mm-002.jpg
+Lithos Desert Soft:cde-lithos-desert-soft-120x260-65mm-002.jpg
+Lithos Moon Naturale:cde-lithos-moon-naturale-120x260-65mm-003.jpg
+Lithos Moon Soft:cde-lithos-moon-soft-120x260-65mm-006.jpg
+Lithos Stone Naturale:cde-lithos-stone-naturale-120x260-65mm-001.jpg
+Lithos Stone Soft:cde-lithos-stone-soft-120x260-65mm-003.jpg]]></names><menuOrder><![CDATA[10]]></menuOrder><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[lithos]]></slug><filename><![CDATA[lithos.xml]]></filename></item><item><pubDate><![CDATA[Sat, 25 Jan 2020 19:35:49 +0300]]></pubDate><title><![CDATA[Oxide]]></title><url><![CDATA[oxide_en]]></url><metad><![CDATA[]]></metad><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><author><![CDATA[admin]]></author><creDate><![CDATA[Sat, 25 Jan 2020 19:35:49 +0300]]></creDate><user><![CDATA[admin]]></user><parent><![CDATA[]]></parent><private><![CDATA[]]></private><menu><![CDATA[]]></menu><dir><![CDATA[]]></dir><names><![CDATA[]]></names><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[oxide_en]]></slug><filename><![CDATA[oxide_en.xml]]></filename></item><item><pubDate><![CDATA[Sun, 26 Jan 2020 00:08:41 +0300]]></pubDate><title><![CDATA[I Naturali - Marmi]]></title><url><![CDATA[naturali]]></url><metad><![CDATA[]]></metad><menu><![CDATA[Naturali]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[laminam]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Sun, 19 Jan 2020 02:17:15 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[laminam_naturali]]></dir><names><![CDATA[Naturali Calacatta Michelangelo:7292_calacatta-michelangelo-s-f1-2.jpg
+Naturali Statuario Altissimo:7293_statuario-altissimo-f1-s.jpg
+Naturali Cava Arabescato:cava-arabescato.jpg
+Naturali Marmi-Bianco Lasa Bocciardato:marmi_-_bianco_lasa_bocciardato.jpg
+Naturali Marmi-Bianco Statuario:marmi_-_bianco_statuario_copy1.jpg
+Naturali Marmi-Bianco Statuario Venato Lucidato:marmi_-_bianco_statuario_venato_lucidato_copy1.jpg
+Naturali Marmi-Calacatta Oro Venato:marmi_-_calacatta_oro_venato_copy1.jpg
+Naturali Marmi-Diamond Cream Bocciardato:marmi_-_diamond_cream_bocciardato_copy1.jpg
+Naturali Naturali Calacatta Oro Venato:naturali-calacatta-oro-venato_1000x3000x-book-match-1.jpg
+Naturali Naturali Statuario Venato:naturali-statuario-venato-1000x3000x5mm-book-match-2.jpg
+Naturali Naturali Invisible White:naturali_invisible_white-2.jpg
+Naturali Statuarietto:statuarietto2.jpg]]></names><menuOrder><![CDATA[4]]></menuOrder><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[naturali]]></slug><filename><![CDATA[naturali.xml]]></filename></item><item><pubDate><![CDATA[Fri, 17 Jan 2020 03:40:01 +0300]]></pubDate><title><![CDATA[Materica]]></title><url><![CDATA[materica]]></url><metad><![CDATA[]]></metad><menu><![CDATA[]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[kerlite]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Fri, 17 Jan 2020 03:40:01 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[cottodeste_materica]]></dir><names><![CDATA[Materica Ardesia:cottodeste_materica_ardesia_5plus_nat_50x150.jpg
+Materica Avorio:cottodeste_materica_avorio_5plus_nat_50x150.jpg
+Materica Bianco:cottodeste_materica_bianco_5plus_nat_50x150.jpg
+Materica Cemento:cottodeste_materica_cemento_5plus_nat_50x150.jpg
+Materica Tortora:cottodeste_materica_tortora_5plus_nat_50x150.jpg]]></names><menuOrder><![CDATA[13]]></menuOrder><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[materica]]></slug><filename><![CDATA[materica.xml]]></filename></item><item><pubDate><![CDATA[Sat, 25 Jan 2020 19:36:15 +0300]]></pubDate><title><![CDATA[Ossido]]></title><url><![CDATA[ossido_en]]></url><metad><![CDATA[]]></metad><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><author><![CDATA[admin]]></author><creDate><![CDATA[Sat, 25 Jan 2020 19:36:15 +0300]]></creDate><user><![CDATA[admin]]></user><parent><![CDATA[]]></parent><private><![CDATA[]]></private><menu><![CDATA[]]></menu><dir><![CDATA[]]></dir><names><![CDATA[]]></names><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[ossido_en]]></slug><filename><![CDATA[ossido_en.xml]]></filename></item><item><pubDate><![CDATA[Sun, 02 Feb 2020 16:50:08 +0300]]></pubDate><title><![CDATA[Kauri]]></title><url><![CDATA[kauri]]></url><metad><![CDATA[]]></metad><menu><![CDATA[]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[laminam]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Sun, 02 Feb 2020 16:50:08 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[laminam_kauri]]></dir><names><![CDATA[Kauri - Beige:beige1.jpg
+Kauri - Bianco:bianco1.jpg
+Kauri - Grigio:grigio1.jpg
+Kauri - Moro:moro1.jpg]]></names><menuOrder><![CDATA[1]]></menuOrder><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[kauri]]></slug><filename><![CDATA[kauri.xml]]></filename></item><item><pubDate><![CDATA[Sat, 25 Jan 2020 19:31:31 +0300]]></pubDate><title><![CDATA[Blend]]></title><url><![CDATA[blend_en]]></url><metad><![CDATA[]]></metad><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><author><![CDATA[admin]]></author><creDate><![CDATA[Sat, 25 Jan 2020 19:30:58 +0300]]></creDate><user><![CDATA[admin]]></user><parent><![CDATA[]]></parent><private><![CDATA[]]></private><menu><![CDATA[]]></menu><dir><![CDATA[laminam_blend]]></dir><names><![CDATA[Blend - Avorio:blend_-_avorio1.jpg
+Blend - Grigio:blend_-_grigio1.jpg
+Blend - Nero:blend_-_nero1.jpg]]></names><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[blend_en]]></slug><filename><![CDATA[blend_en.xml]]></filename></item><item><pubDate><![CDATA[Sun, 02 Feb 2020 17:16:30 +0300]]></pubDate><title><![CDATA[Laminam]]></title><url><![CDATA[laminam]]></url><metad><![CDATA[]]></metad><menu><![CDATA[Laminam]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[shirokoformatnye]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Wed, 15 Jan 2020 15:45:58 +0300]]></creDate><user><![CDATA[admin]]></user><meta><![CDATA[_special_Factory]]></meta><special><![CDATA[Factory]]></special><collections><![CDATA[Blend
+laminam_blend
+blend_-_nero1.jpg
 blend
-img83210260.jpg
-blend
+w
+Cementi
+laminam_cementi
+cementi_cemento_avorio.jpg
+cementi
 b
+Ossido
+laminam_ossido
+bruno.jpg
+ossido
+w
+Oxide
+laminam_oxide
+bianco_copy1.jpg
+oxide
+b
+I Naturali - Pietra
+laminam_pietra-di-savoia
+img43229987.jpg
+pietra-di-savoia
+w
+I Naturali - Marmi
+laminam_naturali
+naturali_invisible_white-2.jpg
+naturali
+b
+Fokos
+laminam_fokos
+fokos-piombo.jpg
+fokos
+w
 Calce
-calce
-img12430648.jpg
+laminam_calce
+calce_-_nero.jpg
 calce
 w
-Blend
-blend
-img83210260.jpg
-blend
+Kauri
+laminam_kauri
+grigio1.jpg
+kauri
 b
-Calce
-calce
-img12430648.jpg
-calce
+L-Wood
+laminam_l_wood
+l-wood-oak.jpg
+l-wood
+b]]></collections><headtext><![CDATA[]]></headtext><slug><![CDATA[laminam]]></slug><filename><![CDATA[laminam.xml]]></filename></item><item><pubDate><![CDATA[Tue, 21 Jan 2020 19:50:51 +0300]]></pubDate><title><![CDATA[Использование]]></title><url><![CDATA[ispolzovanie]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Использовние]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Tue, 21 Jan 2020 19:50:51 +0300]]></creDate><user><![CDATA[admin]]></user><menuOrder><![CDATA[3]]></menuOrder><slug><![CDATA[ispolzovanie]]></slug><filename><![CDATA[ispolzovanie.xml]]></filename></item><item><pubDate><![CDATA[Sat, 25 Jan 2020 19:27:29 +0300]]></pubDate><title><![CDATA[Ossido]]></title><url><![CDATA[ossido]]></url><metad><![CDATA[]]></metad><menu><![CDATA[Cementi]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[laminam]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Thu, 16 Jan 2020 20:28:04 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[laminam_ossido]]></dir><names><![CDATA[Occido Bruno:bruno.jpg
+Ossido Nero:nero.jpg]]></names><menuOrder><![CDATA[9]]></menuOrder><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[ossido]]></slug><filename><![CDATA[ossido.xml]]></filename></item><item><pubDate><![CDATA[Sun, 19 Jan 2020 17:43:23 +0300]]></pubDate><title><![CDATA[Metal]]></title><url><![CDATA[metal]]></url><metad><![CDATA[]]></metad><menu><![CDATA[Metal]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[kerlite]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Sun, 19 Jan 2020 17:41:06 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[cottodeste_metal]]></dir><names><![CDATA[Metal Iridium:cde-metal-iridium-100x300-55mm-001.jpg
+Metal Corten:cottodeste_metal_corten_minimale.jpg
+Metal Iron:cottodeste_metal_iron_minimale.jpg]]></names><menuOrder><![CDATA[8]]></menuOrder><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[metal]]></slug><filename><![CDATA[metal.xml]]></filename></item><item><pubDate><![CDATA[Sat, 18 Jan 2020 14:56:15 +0300]]></pubDate><title><![CDATA[Vanity]]></title><url><![CDATA[vanity]]></url><metad><![CDATA[]]></metad><menu><![CDATA[Vanity]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[kerlite]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Fri, 17 Jan 2020 03:46:37 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[cottodeste_vanity]]></dir><names><![CDATA[Vanity Biancoluce Touch:cde-vanity-biancoluce-touch-120x260-65mm-002.jpg
+Vanity Bianco Statuario:cde-vanity-biancostatuario-120x260-65mm-001.jpg
+Vanity Dark Brown:cde-vanity-dark-brown-120x260-003.jpg]]></names><menuOrder><![CDATA[12]]></menuOrder><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[vanity]]></slug><filename><![CDATA[vanity.xml]]></filename></item><item><pubDate><![CDATA[Wed, 15 Jan 2020 15:43:36 +0300]]></pubDate><title><![CDATA[Коллекции]]></title><url><![CDATA[kollekcii]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Коллекции]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Wed, 15 Jan 2020 15:43:17 +0300]]></creDate><user><![CDATA[admin]]></user><menuOrder><![CDATA[2]]></menuOrder><slug><![CDATA[kollekcii]]></slug><filename><![CDATA[kollekcii.xml]]></filename></item><item><pubDate><![CDATA[Sun, 19 Jan 2020 03:47:41 +0300]]></pubDate><title><![CDATA[Collections]]></title><url><![CDATA[kollekcii_en]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><author><![CDATA[admin]]></author><creDate><![CDATA[Sun, 19 Jan 2020 03:47:41 +0300]]></creDate><user><![CDATA[admin]]></user><parent><![CDATA[]]></parent><private><![CDATA[]]></private><menu><![CDATA[]]></menu><slug><![CDATA[kollekcii_en]]></slug><filename><![CDATA[kollekcii_en.xml]]></filename></item><item><pubDate><![CDATA[Wed, 22 Jan 2020 01:34:36 +0300]]></pubDate><title><![CDATA[Furniture]]></title><url><![CDATA[mebel_en]]></url><metad><![CDATA[]]></metad><menu><![CDATA[Furniture]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><author><![CDATA[admin]]></author><creDate><![CDATA[Wed, 22 Jan 2020 01:34:36 +0300]]></creDate><user><![CDATA[admin]]></user><parent><![CDATA[]]></parent><private><![CDATA[]]></private><usage><![CDATA[furniture]]></usage><special><![CDATA[usage]]></special><meta><![CDATA[, _special_usage]]></meta><template><![CDATA[template.php]]></template><slug><![CDATA[mebel_en]]></slug><filename><![CDATA[mebel_en.xml]]></filename></item><item><pubDate><![CDATA[Fri, 17 Jan 2020 03:37:10 +0300]]></pubDate><title><![CDATA[Forest]]></title><url><![CDATA[forest]]></url><metad><![CDATA[]]></metad><menu><![CDATA[]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[kerlite]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Fri, 17 Jan 2020 03:37:10 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[cottodeste_forest]]></dir><names><![CDATA[Forest Acero:cottodeste_forest_acero_5plus_nat_100x300.jpg
+Forest Cembro:cottodeste_forest_cembro_5plus_nat_100x300.jpg
+Forest Noce:cottodeste_forest_noce_5plus_nat_100x300.jpg
+Forest Rovere:cottodeste_forest_rovere_5plus_nat_100x300.jpg]]></names><menuOrder><![CDATA[14]]></menuOrder><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[forest]]></slug><filename><![CDATA[forest.xml]]></filename></item><item><pubDate><![CDATA[Tue, 21 Jan 2020 18:46:09 +0300]]></pubDate><title><![CDATA[О нас]]></title><url><![CDATA[o-nas]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[О нас]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Wed, 15 Jan 2020 14:54:16 +0300]]></creDate><user><![CDATA[admin]]></user><menuOrder><![CDATA[1]]></menuOrder><slug><![CDATA[o-nas]]></slug><filename><![CDATA[o-nas.xml]]></filename></item><item><pubDate><![CDATA[Wed, 22 Jan 2020 01:34:11 +0300]]></pubDate><title><![CDATA[Мебель]]></title><url><![CDATA[mebel]]></url><metad><![CDATA[]]></metad><menu><![CDATA[Мебель]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><parent><![CDATA[ispolzovanie]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Wed, 22 Jan 2020 01:34:11 +0300]]></creDate><user><![CDATA[admin]]></user><usage><![CDATA[furniture]]></usage><special><![CDATA[usage]]></special><meta><![CDATA[, _special_usage]]></meta><template><![CDATA[template.php]]></template><slug><![CDATA[mebel]]></slug><filename><![CDATA[mebel.xml]]></filename></item><item><pubDate><![CDATA[Sat, 15 Feb 2020 16:07:45 +0300]]></pubDate><title><![CDATA[Woodland]]></title><url><![CDATA[woodland]]></url><metad><![CDATA[]]></metad><menu><![CDATA[]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[kerlite]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Sat, 15 Feb 2020 16:07:45 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[cottodeste_woodland]]></dir><names><![CDATA[Woodland Arden:arden.jpg
+Woodland Atlantic:atlantic.jpg
+Woodland Boreal Soft:boreal-soft.jpg
+Woodland Grove Wild:grove-wild.jpg
+Woodland Teak Ebony:teak-ebony.jpg
+Woodland Teak Soft:teak-soft.jpg
+Woodland Tropical Soft:tropical-soft.jpg
+Woodland Wild Walden:wild-walden.jpg]]></names><menuOrder><![CDATA[1]]></menuOrder><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[woodland]]></slug><filename><![CDATA[woodland.xml]]></filename></item><item><pubDate><![CDATA[Sun, 19 Jan 2020 03:36:35 +0300]]></pubDate><title><![CDATA[Over]]></title><url><![CDATA[over]]></url><metad><![CDATA[]]></metad><menu><![CDATA[]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[kerlite]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Sun, 19 Jan 2020 03:36:35 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[cottodeste_over]]></dir><names><![CDATA[Over Loft:cottodeste_over_loft_3plus_natsoft_100x300.jpg
+Over Office:cottodeste_over_office_3plus_natsoft_100x300.jpg
+Over Openspace:cottodeste_over_openspace_3plus_natsoft_100x300.jpg
+Over Road:cottodeste_over_road_3plus_natsoft_100x300.jpg]]></names><menuOrder><![CDATA[11]]></menuOrder><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[over]]></slug><filename><![CDATA[over.xml]]></filename></item><item><pubDate><![CDATA[Sat, 25 Jan 2020 19:09:53 +0300]]></pubDate><title><![CDATA[Cementi]]></title><url><![CDATA[cementi]]></url><metad><![CDATA[]]></metad><menu><![CDATA[Cementi]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[laminam]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Thu, 16 Jan 2020 20:28:04 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[laminam_cementi]]></dir><names><![CDATA[Cementi Cemento Nero:cementi_cemento_nero.jpg
+Cementi Cemento Avorio:cementi_cemento_avorio.jpg
+Cementi Cemento Grigio:cementi_cemento_grigio.jpg]]></names><menuOrder><![CDATA[8]]></menuOrder><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[cementi]]></slug><filename><![CDATA[cementi.xml]]></filename></item><item><pubDate><![CDATA[Sun, 26 Jan 2020 00:00:37 +0300]]></pubDate><title><![CDATA[Fokos]]></title><url><![CDATA[fokos]]></url><metad><![CDATA[]]></metad><menu><![CDATA[Fokos]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[laminam]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Sat, 25 Jan 2020 19:48:39 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[laminam_fokos]]></dir><names><![CDATA[Fokos - Piombo:fokos-piombo.jpg
+Fokos - Rena:fokos_-_piombo.jpg
+Fokos - Roccia:fokos_-_roccia.jpg
+Fokos - Sale:fokos_-_sale.jpg
+Fokos - Terra:fokos_-_terra.jpg]]></names><menuOrder><![CDATA[3]]></menuOrder><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[fokos]]></slug><filename><![CDATA[fokos.xml]]></filename></item><item><pubDate><![CDATA[Sat, 15 Feb 2020 15:50:19 +0300]]></pubDate><title><![CDATA[PIETRA D&#39;ISEO]]></title><url><![CDATA[pietra-diseo]]></url><metad><![CDATA[]]></metad><menu><![CDATA[]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[kerlite]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Sat, 15 Feb 2020 15:50:19 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[cottodeste_pietradiseo]]></dir><names><![CDATA[PIETRA D'ISEO Ceppo Naturale:cde-pietradiseo-ceppo-naturale-120x260-65mm-001.jpg]]></names><menuOrder><![CDATA[3]]></menuOrder><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[pietra-diseo]]></slug><filename><![CDATA[pietra-diseo.xml]]></filename></item><item><pubDate><![CDATA[Sat, 15 Feb 2020 15:55:44 +0300]]></pubDate><title><![CDATA[Black White]]></title><url><![CDATA[black-white]]></url><metad><![CDATA[]]></metad><menu><![CDATA[]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[kerlite]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Sat, 15 Feb 2020 15:55:44 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[cottodeste_blackwhite]]></dir><names><![CDATA[Black White Black:cottodeste_black_white_black_minimale.jpg
+Black White Snow:cottodeste_black_white_snow_minimale.jpg
+Black White White:cottodeste_black_white_white_minimale.jpg]]></names><menuOrder><![CDATA[2]]></menuOrder><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[black-white]]></slug><filename><![CDATA[black-white.xml]]></filename></item><item><pubDate><![CDATA[Tue, 21 Jan 2020 20:53:12 +0300]]></pubDate><title><![CDATA[About us]]></title><url><![CDATA[o-nas_en]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><author><![CDATA[admin]]></author><creDate><![CDATA[Sun, 19 Jan 2020 03:46:39 +0300]]></creDate><user><![CDATA[admin]]></user><parent><![CDATA[]]></parent><private><![CDATA[]]></private><menu><![CDATA[]]></menu><slug><![CDATA[o-nas_en]]></slug><filename><![CDATA[o-nas_en.xml]]></filename></item><item><pubDate><![CDATA[Sat, 25 Jan 2020 19:26:29 +0300]]></pubDate><title><![CDATA[Oxide]]></title><url><![CDATA[oxide]]></url><metad><![CDATA[]]></metad><menu><![CDATA[Oxide]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[laminam]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Thu, 16 Jan 2020 20:45:50 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[laminam_oxide]]></dir><names><![CDATA[Oxide Avorio:avorio.jpg
+Oxide Bianco:bianco_copy1.jpg
+Oxide Grigio:grigio_copy1.jpg
+Oxide Moro:moro_copy1.jpg
+Oxide Nero:nero_copy1.jpg
+Oxide Perla:perla.jpg]]></names><menuOrder><![CDATA[5]]></menuOrder><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[oxide]]></slug><filename><![CDATA[oxide.xml]]></filename></item><item><pubDate><![CDATA[Sun, 26 Jan 2020 00:05:26 +0300]]></pubDate><title><![CDATA[I Naturali]]></title><url><![CDATA[naturali_en]]></url><metad><![CDATA[]]></metad><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><author><![CDATA[admin]]></author><creDate><![CDATA[Sat, 25 Jan 2020 19:37:52 +0300]]></creDate><user><![CDATA[admin]]></user><parent><![CDATA[]]></parent><private><![CDATA[]]></private><menu><![CDATA[]]></menu><dir><![CDATA[]]></dir><names><![CDATA[]]></names><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[naturali_en]]></slug><filename><![CDATA[naturali_en.xml]]></filename></item><item><pubDate><![CDATA[Fri, 17 Jan 2020 03:32:52 +0300]]></pubDate><title><![CDATA[Exedra]]></title><url><![CDATA[exedra]]></url><metad><![CDATA[]]></metad><menu><![CDATA[]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[kerlite]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Fri, 17 Jan 2020 03:32:52 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[cottodeste_exedra]]></dir><names><![CDATA[Exedra Albis:cottodeste_exedra_albis_14mm_silk_60x120.jpg
+Exedra Amadeus:cottodeste_exedra_amadeus_5plus_glossy_100x250.jpg
+Exedra Calacatta:cottodeste_exedra_calacatta_14mm_silk_60x120.jpg
+Exedra Estremoz:cottodeste_exedra_estremoz_14mm_silk_60x120.jpg
+Exedra Marfil:cottodeste_exedra_marfil_5plus_silkglossy_100x300.jpg
+Exedra Onyxextra:cottodeste_exedra_onyxextra_5plus_silkglossy_100x300.jpg
+Exedra Onyxperle:cottodeste_exedra_onyxperle_14mm_silk_60x120.jpg
+Exedra Pulpis:cottodeste_exedra_pulpis_5plus_silk_100x300.jpg
+Exedra Raingrey:cottodeste_exedra_raingrey_5plus_silkglossy_100x300.jpg
+Exedra Riverstone:cottodeste_exedra_riverstone_5plus_silkglossy_100x300.jpg
+Exedra Travertino:cottodeste_exedra_travertino_14mm_silk_60x120.jpg]]></names><menuOrder><![CDATA[15]]></menuOrder><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[exedra]]></slug><filename><![CDATA[exedra.xml]]></filename></item><item><pubDate><![CDATA[Sat, 25 Jan 2020 19:06:57 +0300]]></pubDate><title><![CDATA[Blend]]></title><url><![CDATA[blend]]></url><metad><![CDATA[]]></metad><menu><![CDATA[Blend]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[laminam]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Thu, 16 Jan 2020 18:14:06 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[laminam_blend]]></dir><names><![CDATA[Blend - Avorio:blend_-_avorio1.jpg
+Blend - Grigio:blend_-_grigio1.jpg
+Blend - Nero:blend_-_nero1.jpg]]></names><menuOrder><![CDATA[6]]></menuOrder><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[blend]]></slug><filename><![CDATA[blend.xml]]></filename></item><item><pubDate><![CDATA[Tue, 18 Feb 2020 20:13:06 +0300]]></pubDate><title><![CDATA[Wonderwall]]></title><url><![CDATA[wonderwall]]></url><metad><![CDATA[]]></metad><menu><![CDATA[]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[kerlite]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Tue, 18 Feb 2020 20:13:06 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[cottodeste_wonderwall]]></dir><names><![CDATA[Wonderwall Ballet:color-ballet-a.jpg
+Wonderwall Dream:dream.jpg
+Wonderwall Frame:frame.jpg
+Wonderwall Freestyle:freestyle.jpg
+Wonderwall Jungle:jungle.jpg
+Wonderwall Lotus:lotus.jpg
+Wonderwall Ritmi:ritmi.jpg
+Wonderwall Scripts:scripts.jpg
+Wonderwall Sketch:sketch.jpg
+Wonderwall Venice:venice.jpg
+Wonderwall Zen:zen.jpg]]></names><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[wonderwall]]></slug><filename><![CDATA[wonderwall.xml]]></filename></item><item><pubDate><![CDATA[Sun, 19 Jan 2020 03:41:19 +0300]]></pubDate><title><![CDATA[Cement-Project]]></title><url><![CDATA[cement-project]]></url><metad><![CDATA[]]></metad><menu><![CDATA[Cement-Project]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[kerlite]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Sun, 19 Jan 2020 03:38:08 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[cottodeste_cement-project]]></dir><names><![CDATA[Cement-Project Color 00 Cem:cde-cementproject-color00-cem-100x300-55mm-001.jpg
+Cement-Project Color 10 Cem:cde-cementproject-color10-cem-100x300-55mm.jpg
+Cement-Project Color 10 Work:cde-cementproject-color10-work-100x300-55mm.jpg
+Cement-Project Color 20 Cem:cde-cementproject-color20-cem-100x300-55mm.jpg
+Cement-Project Color 20 Land:cde-cementproject-color20-land-60x120-14mm.jpg
+Cement-Project Color 20 Work:cde-cementproject-color20-work-100x300-55mm.jpg
+Cement-Project Color 30 Cem:cde-cementproject-color30-cem-100x300-55mm.jpg
+Cement-Project Color 30 Land:cde-cementproject-color30-land-60x120-14mm.jpg
+Cement-Project Color 30 Work:cde-cementproject-color30-work-100x300-55mm.jpg
+Cement-Project Color 40 Cem:cde-cementproject-color40-cem-100x300-55mm-004.jpg]]></names><menuOrder><![CDATA[9]]></menuOrder><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[cement-project]]></slug><filename><![CDATA[cement-project.xml]]></filename></item><item><pubDate><![CDATA[Sat, 15 Feb 2020 14:56:36 +0300]]></pubDate><title><![CDATA[Buxy]]></title><url><![CDATA[buxy]]></url><metad><![CDATA[]]></metad><menu><![CDATA[]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[kerlite]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Sat, 15 Feb 2020 14:56:36 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[cottodeste_buxy]]></dir><names><![CDATA[Buxy Amande:cottodeste_buxy_amande_m.jpg
+Buxy Caramel:cottodeste_buxy_caramel_m.jpg
+Buxy Cendre:cottodeste_buxy_cendre_m.jpg
+Buxy Corailblanc:cottodeste_buxy_corailblanc_m.jpg
+Buxy Noisette:cottodeste_buxy_noisette_m.jpg
+Buxy Perle:cottodeste_buxy_perle_m.jpg
+Buxy Cendreflamme:cottodeste_buxyflamme_cendreflamme_m.jpg]]></names><menuOrder><![CDATA[7]]></menuOrder><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[buxy]]></slug><filename><![CDATA[buxy.xml]]></filename></item><item><pubDate><![CDATA[Sat, 15 Feb 2020 15:10:41 +0300]]></pubDate><title><![CDATA[Cluny]]></title><url><![CDATA[cluny]]></url><metad><![CDATA[]]></metad><menu><![CDATA[]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[kerlite]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Sat, 15 Feb 2020 15:10:41 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[cottodeste_cluny]]></dir><names><![CDATA[Cluny Ardenne_minimale:ardenne_minimale.jpg
+Cluny Argerot_minimale:argerot_minimale.jpg
+Cluny Auvergne_minimale:auvergne_minimale.jpg
+Cluny Bourgogne_minimale:bourgogne_minimale.jpg
+Cluny Champagne_minimale:champagne_minimale.jpg
+Cluny Ardenne_laye:cluny_ardenne_laye.jpg
+Cluny Argerot_laye:cluny_argerot_laye.jpg
+Cluny Auvergne_laye:cluny_auvergne_laye.jpg
+Cluny Bourgogne_laye:cluny_bourgogne_laye.jpg
+Cluny Champagne_laye:cluny_champagne_laye.jpg]]></names><menuOrder><![CDATA[6]]></menuOrder><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[cluny]]></slug><filename><![CDATA[cluny.xml]]></filename></item><item><pubDate><![CDATA[Mon, 24 Feb 2020 13:40:55 +0300]]></pubDate><title><![CDATA[Home]]></title><url><![CDATA[index_en]]></url><meta><![CDATA[getsimple, easy, content management system]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Home]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><author><![CDATA[admin]]></author><creDate><![CDATA[Wed, 15 Jan 2020 14:40:47 +0300]]></creDate><user><![CDATA[admin]]></user><parent><![CDATA[]]></parent><private><![CDATA[]]></private><slug><![CDATA[index_en]]></slug><filename><![CDATA[index_en.xml]]></filename></item><item><pubDate><![CDATA[Sat, 25 Jan 2020 19:34:30 +0300]]></pubDate><title><![CDATA[Cementi]]></title><url><![CDATA[cementi_en]]></url><metad><![CDATA[]]></metad><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><author><![CDATA[admin]]></author><creDate><![CDATA[Sat, 25 Jan 2020 19:34:22 +0300]]></creDate><user><![CDATA[admin]]></user><parent><![CDATA[]]></parent><private><![CDATA[]]></private><menu><![CDATA[]]></menu><dir><![CDATA[]]></dir><names><![CDATA[]]></names><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[cementi_en]]></slug><filename><![CDATA[cementi_en.xml]]></filename></item><item><pubDate><![CDATA[Mon, 24 Feb 2020 14:49:32 +0300]]></pubDate><title><![CDATA[Каталоги]]></title><url><![CDATA[katalogi]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Каталоги]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[catalog.php]]></template><parent><![CDATA[]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Mon, 24 Feb 2020 14:48:49 +0300]]></creDate><user><![CDATA[admin]]></user><menuOrder><![CDATA[4]]></menuOrder><slug><![CDATA[katalogi]]></slug><filename><![CDATA[katalogi.xml]]></filename></item><item><pubDate><![CDATA[Sat, 25 Jan 2020 23:59:53 +0300]]></pubDate><title><![CDATA[Calce]]></title><url><![CDATA[calce_en]]></url><metad><![CDATA[]]></metad><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><author><![CDATA[admin]]></author><creDate><![CDATA[Sat, 25 Jan 2020 23:59:53 +0300]]></creDate><user><![CDATA[admin]]></user><parent><![CDATA[]]></parent><private><![CDATA[]]></private><menu><![CDATA[]]></menu><dir><![CDATA[]]></dir><names><![CDATA[]]></names><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[calce_en]]></slug><filename><![CDATA[calce_en.xml]]></filename></item><item><pubDate><![CDATA[Mon, 24 Feb 2020 14:49:17 +0300]]></pubDate><title><![CDATA[Catalogs]]></title><url><![CDATA[katalogi_en]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><author><![CDATA[admin]]></author><creDate><![CDATA[Mon, 24 Feb 2020 14:49:17 +0300]]></creDate><user><![CDATA[admin]]></user><parent><![CDATA[]]></parent><private><![CDATA[]]></private><menu><![CDATA[]]></menu><slug><![CDATA[katalogi_en]]></slug><filename><![CDATA[katalogi_en.xml]]></filename></item><item><pubDate><![CDATA[Tue, 18 Feb 2020 20:14:43 +0300]]></pubDate><title><![CDATA[Kerlite]]></title><url><![CDATA[kerlite]]></url><metad><![CDATA[]]></metad><menu><![CDATA[Kerlite]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[shirokoformatnye]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Thu, 16 Jan 2020 20:36:27 +0300]]></creDate><user><![CDATA[admin]]></user><menuOrder><![CDATA[1]]></menuOrder><meta><![CDATA[_special_Factory]]></meta><special><![CDATA[Factory]]></special><collections><![CDATA[Forest
+cottodeste_forest
+cottodeste_forest_rovere_5plus_nat_100x300.jpg
+forest
+b
+Vanity
+cottodeste_vanity
+cde-vanity-dark-brown-120x260-003.jpg
+vanity
 w
-Blend
-blend
-img83210260.jpg
-blend
+Materica
+cottodeste_materica
+cottodeste_materica_tortora_5plus_nat_50x150.jpg
+materica
+w
+Exedra
+cottodeste_exedra
+cottodeste_exedra_raingrey_5plus_silkglossy_100x300.jpg
+exedra
 b
-Calce
-calce
-img12430648.jpg
-calce
-w]]></collections><slug><![CDATA[laminam-1]]></slug><filename><![CDATA[laminam-1.xml]]></filename></item><item><pubDate><![CDATA[Sun, 23 Feb 2020 15:22:26 +0300]]></pubDate><title><![CDATA[Каталоги_tested (en)]]></title><url><![CDATA[katalogi-tested_en]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><author><![CDATA[admin]]></author><creDate><![CDATA[Sun, 23 Feb 2020 15:22:26 +0300]]></creDate><user><![CDATA[admin]]></user><parent><![CDATA[]]></parent><private><![CDATA[]]></private><menu><![CDATA[]]></menu><slug><![CDATA[katalogi-tested_en]]></slug><filename><![CDATA[katalogi-tested_en.xml]]></filename></item><item><pubDate><![CDATA[Tue, 21 Jan 2020 18:47:39 +0300]]></pubDate><title><![CDATA[О нас]]></title><url><![CDATA[o-nas]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[О нас]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Wed, 18 Dec 2019 16:21:51 +0100]]></creDate><user><![CDATA[admin]]></user><menuOrder><![CDATA[2]]></menuOrder><slug><![CDATA[o-nas]]></slug><filename><![CDATA[o-nas.xml]]></filename></item><item><pubDate><![CDATA[Wed, 18 Dec 2019 18:02:16 +0100]]></pubDate><creDate><![CDATA[Wed, 18 Dec 2019 16:23:45 +0100]]></creDate><title><![CDATA[Home]]></title><url><![CDATA[index_en]]></url><meta><![CDATA[getsimple, easy, content management system]]></meta><metad><![CDATA[]]></metad><menuOrder><![CDATA[0]]></menuOrder><template><![CDATA[template.php]]></template><author><![CDATA[admin]]></author><user><![CDATA[admin]]></user><parent><![CDATA[]]></parent><menu><![CDATA[]]></menu><menuStatus><![CDATA[Y]]></menuStatus><private><![CDATA[]]></private><slug><![CDATA[index_en]]></slug><filename><![CDATA[index_en.xml]]></filename></item><item><pubDate><![CDATA[Sun, 23 Feb 2020 14:13:22 +0300]]></pubDate><title><![CDATA[Каталоги_tested]]></title><url><![CDATA[katalogi-tested]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Каталоги_tested]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[catalog.php]]></template><parent><![CDATA[]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Sun, 23 Feb 2020 13:57:53 +0300]]></creDate><user><![CDATA[admin]]></user><menuOrder><![CDATA[5]]></menuOrder><slug><![CDATA[katalogi-tested]]></slug><filename><![CDATA[katalogi-tested.xml]]></filename></item><item><pubDate><![CDATA[Wed, 22 Jan 2020 01:27:33 +0300]]></pubDate><title><![CDATA[Furniture]]></title><url><![CDATA[furniture]]></url><metad><![CDATA[]]></metad><menu><![CDATA[Furniture]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><parent><![CDATA[ispolzovanie]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Wed, 22 Jan 2020 01:13:38 +0300]]></creDate><user><![CDATA[admin]]></user><usage><![CDATA[furniture]]></usage><special><![CDATA[usage]]></special><meta><![CDATA[, _special_usage]]></meta><template><![CDATA[template.php]]></template><slug><![CDATA[furniture]]></slug><filename><![CDATA[furniture.xml]]></filename></item><item><pubDate><![CDATA[Thu, 26 Dec 2019 18:58:39 +0100]]></pubDate><title><![CDATA[Домашняя]]></title><url><![CDATA[index]]></url><meta><![CDATA[getsimple, easy, content management system]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Домашняя]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[homepage.php]]></template><parent><![CDATA[]]></parent><author><![CDATA[admin]]></author><user><![CDATA[admin]]></user><parent><![CDATA[]]></parent><menu><![CDATA[]]></menu><menuStatus><![CDATA[Y]]></menuStatus><private><![CDATA[]]></private><menuOrder><![CDATA[1]]></menuOrder><slug><![CDATA[index]]></slug><filename><![CDATA[index.xml]]></filename></item><item><pubDate><![CDATA[Mon, 24 Feb 2020 12:47:31 +0300]]></pubDate><title><![CDATA[Read catalog tested]]></title><url><![CDATA[read-catalog-tested]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Read catalog tested]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[catalogView.php]]></template><parent><![CDATA[katalogi-tested]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Sun, 23 Feb 2020 13:58:08 +0300]]></creDate><user><![CDATA[admin]]></user><slug><![CDATA[read-catalog-tested]]></slug><filename><![CDATA[read-catalog-tested.xml]]></filename></item><item><pubDate><![CDATA[Mon, 16 Dec 2019 19:12:55 +0100]]></pubDate><title><![CDATA[BlueStyle]]></title><url><![CDATA[bluestyle]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><template><![CDATA[template.php]]></template><author><![CDATA[admin]]></author><parent><![CDATA[standart]]></parent><menuOrder><![CDATA[0]]></menuOrder><menu><![CDATA[]]></menu><menuStatus><![CDATA[Y]]></menuStatus><private><![CDATA[]]></private><slug><![CDATA[bluestyle]]></slug><filename><![CDATA[bluestyle.xml]]></filename></item><item><pubDate><![CDATA[Mon, 16 Dec 2019 19:12:45 +0100]]></pubDate><title><![CDATA[Стандарт]]></title><url><![CDATA[standart]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><template><![CDATA[template.php]]></template><author><![CDATA[admin]]></author><parent><![CDATA[page-1]]></parent><menu><![CDATA[]]></menu><menuStatus><![CDATA[Y]]></menuStatus><private><![CDATA[]]></private><menuOrder><![CDATA[2]]></menuOrder><slug><![CDATA[standart]]></slug><filename><![CDATA[standart.xml]]></filename></item><item><pubDate><![CDATA[Thu, 26 Dec 2019 18:15:18 +0100]]></pubDate><title><![CDATA[Blend]]></title><url><![CDATA[blend]]></url><metad><![CDATA[]]></metad><menu><![CDATA[Blend]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[laminam-1]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Thu, 19 Dec 2019 18:29:10 +0100]]></creDate><user><![CDATA[admin]]></user><menuOrder><![CDATA[1]]></menuOrder><dir><![CDATA[blend]]></dir><names><![CDATA[Blend Nero:img23703179.jpg
-Gridgio:img38248206.jpg
-qweewqe:img83210260.jpg]]></names><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection, laminam, blend]]></meta><template><![CDATA[template.php]]></template><slug><![CDATA[blend]]></slug><filename><![CDATA[blend.xml]]></filename></item><item><pubDate><![CDATA[Mon, 16 Dec 2019 19:11:41 +0100]]></pubDate><title><![CDATA[Широкоформат]]></title><url><![CDATA[page-11]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><template><![CDATA[template.php]]></template><author><![CDATA[admin]]></author><parent><![CDATA[page-1]]></parent><menu><![CDATA[]]></menu><menuStatus><![CDATA[Y]]></menuStatus><private><![CDATA[]]></private><menuOrder><![CDATA[1]]></menuOrder><slug><![CDATA[page-11]]></slug><filename><![CDATA[page-11.xml]]></filename></item><item><pubDate><![CDATA[Wed, 18 Dec 2019 19:53:05 +0100]]></pubDate><title><![CDATA[Коллекции]]></title><url><![CDATA[page-1]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Коллекции]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><no_click><![CDATA[on]]></no_click><creDate><![CDATA[Mon, 16 Dec 2019 19:11:24 +0100]]></creDate><user><![CDATA[admin]]></user><menuOrder><![CDATA[3]]></menuOrder><slug><![CDATA[page-1]]></slug><filename><![CDATA[page-1.xml]]></filename></item><item><pubDate><![CDATA[Mon, 16 Dec 2019 19:11:55 +0100]]></pubDate><title><![CDATA[Kerlite]]></title><url><![CDATA[kerlite]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><template><![CDATA[template.php]]></template><author><![CDATA[admin]]></author><parent><![CDATA[page-11]]></parent><menu><![CDATA[]]></menu><menuStatus><![CDATA[Y]]></menuStatus><private><![CDATA[]]></private><menuOrder><![CDATA[1]]></menuOrder><slug><![CDATA[kerlite]]></slug><filename><![CDATA[kerlite.xml]]></filename></item><item><pubDate><![CDATA[Tue, 17 Dec 2019 12:48:35 +0300]]></pubDate><title><![CDATA[Belissimo]]></title><url><![CDATA[belissimo]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Belissimo]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[standart]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><menuOrder><![CDATA[1]]></menuOrder><slug><![CDATA[belissimo]]></slug><filename><![CDATA[belissimo.xml]]></filename></item></channel>
+Over
+cottodeste_over
+cottodeste_over_office_3plus_natsoft_100x300.jpg
+over
+b
+Lithos
+cottodeste_lithos
+cde-lithos-carbon-soft-120x260-65mm-006.jpg
+lithos
+w
+Cement-Project
+cottodeste_cement-project
+cde-cementproject-color10-work-100x300-55mm.jpg
+cement-project
+b
+Metal
+cottodeste_metal
+cottodeste_metal_iron_minimale.jpg
+metal
+w
+Buxy
+cottodeste_buxy
+cottodeste_buxy_cendre_m.jpg
+buxy
+w
+Cluny
+cottodeste_cluny
+ardenne_minimale.jpg
+cluny
+w
+Elegance
+cottodeste_elegance
+elegance_viatornabuoni_minimale.jpg
+elegance
+b
+Limestone
+cottodeste_limestone
+cottodeste_limestone_clay_minimale.jpg
+limestone
+b
+PIETRA D'ISEO
+cottodeste_pietradiseo
+cde-pietradiseo-ceppo-naturale-120x260-65mm-001.jpg
+pietra-diseo
+b
+Black White
+cottodeste_blackwhite
+cottodeste_black_white_black_minimale.jpg
+black-white
+w
+Woodland
+cottodeste_woodland
+teak-ebony.jpg
+woodland
+w
+Wonderwall
+cottodeste_wonderwall
+color-ballet-a.jpg
+wonderwall
+w]]></collections><headtext><![CDATA[]]></headtext><slug><![CDATA[kerlite]]></slug><filename><![CDATA[kerlite.xml]]></filename></item><item><pubDate><![CDATA[Sun, 02 Feb 2020 17:14:40 +0300]]></pubDate><title><![CDATA[L-Wood]]></title><url><![CDATA[l-wood]]></url><metad><![CDATA[]]></metad><menu><![CDATA[L-Wood]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[laminam]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Sun, 02 Feb 2020 17:13:38 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[laminam_l_wood]]></dir><names><![CDATA[L-Wod Faggio:l-wood-faggio.jpg
+L-Wod Noce:l-wood-noce.jpg
+L-Wod Oak:l-wood-oak.jpg]]></names><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[l-wood]]></slug><filename><![CDATA[l-wood.xml]]></filename></item><item><pubDate><![CDATA[Sun, 26 Jan 2020 00:11:18 +0300]]></pubDate><title><![CDATA[I Naturali - Pietra]]></title><url><![CDATA[pietra-di-savoia]]></url><metad><![CDATA[]]></metad><menu><![CDATA[Pietra Di Savoia]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[laminam]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Thu, 16 Jan 2020 20:35:07 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[laminam_pietra-di-savoia]]></dir><names><![CDATA[I NATURALI - PIETRA DI SAVOIA ANTRACITE BOCCIARDATA:img43229987.jpg
+I NATURALI - PIETRA DI SAVOIA AVORIO BOCCIARDATA:img96253272.jpg
+I NATURALI - PIETRA DI SAVOIA GRIGIA BOCCIARDATA:img87115097.jpg
+I NATURALI - PIETRA DI SAVOIA PERLA BOCCIARDATA:img31039644.jpg
+I Naturali Pietre-Ossidiana Vena Chiara:pietre_-_ossidiana_vena_chiara_copy1.jpg
+I Naturali Pietre-Ossidiana Vena Grigia:pietre_-_ossidiana_vena_grigia_copy1.jpg]]></names><menuOrder><![CDATA[7]]></menuOrder><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[pietra-di-savoia]]></slug><filename><![CDATA[pietra-di-savoia.xml]]></filename></item><item><pubDate><![CDATA[Sat, 15 Feb 2020 15:28:48 +0300]]></pubDate><title><![CDATA[Elegance]]></title><url><![CDATA[elegance]]></url><metad><![CDATA[]]></metad><menu><![CDATA[]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[kerlite]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Sat, 15 Feb 2020 15:28:48 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[cottodeste_elegance]]></dir><names><![CDATA[Elegance Viacondotti:elegance_viacondotti_minimale.jpg
+Elegance Viafarini:elegance_viafarini_minimale.jpg
+Elegance Viamontenapoleone:elegance_viamontenapoleone_minimale.jpg
+Elegance Viatornabuoni:elegance_viatornabuoni_minimale.jpg]]></names><menuOrder><![CDATA[5]]></menuOrder><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[elegance]]></slug><filename><![CDATA[elegance.xml]]></filename></item><item><pubDate><![CDATA[Mon, 24 Feb 2020 13:40:49 +0300]]></pubDate><title><![CDATA[Главная]]></title><url><![CDATA[index]]></url><meta><![CDATA[getsimple, easy, content management system]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Главная]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[homepage.php]]></template><parent><![CDATA[]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Wed, 15 Jan 2020 14:30:20 +0300]]></creDate><user><![CDATA[admin]]></user><menuOrder><![CDATA[0]]></menuOrder><slug><![CDATA[index]]></slug><filename><![CDATA[index.xml]]></filename></item><item><pubDate><![CDATA[Sun, 19 Jan 2020 03:48:57 +0300]]></pubDate><title><![CDATA[Wide-format]]></title><url><![CDATA[shirokoformatnye_en]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><author><![CDATA[admin]]></author><creDate><![CDATA[Sun, 19 Jan 2020 03:48:57 +0300]]></creDate><user><![CDATA[admin]]></user><parent><![CDATA[]]></parent><private><![CDATA[]]></private><menu><![CDATA[]]></menu><slug><![CDATA[shirokoformatnye_en]]></slug><filename><![CDATA[shirokoformatnye_en.xml]]></filename></item><item><pubDate><![CDATA[Wed, 15 Jan 2020 15:44:27 +0300]]></pubDate><title><![CDATA[Широкоформатные]]></title><url><![CDATA[shirokoformatnye]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Широкоформатные]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[kollekcii]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Wed, 15 Jan 2020 15:44:27 +0300]]></creDate><user><![CDATA[admin]]></user><slug><![CDATA[shirokoformatnye]]></slug><filename><![CDATA[shirokoformatnye.xml]]></filename></item><item><pubDate><![CDATA[Sat, 15 Feb 2020 15:37:23 +0300]]></pubDate><title><![CDATA[Limestone]]></title><url><![CDATA[limestone]]></url><metad><![CDATA[]]></metad><menu><![CDATA[]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[kerlite]]></parent><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate><![CDATA[Sat, 15 Feb 2020 15:37:23 +0300]]></creDate><user><![CDATA[admin]]></user><dir><![CDATA[cottodeste_limestone]]></dir><names><![CDATA[Limestone Amber:cottodeste_limestone_amber_minimale.jpg
+Limestone Clay:cottodeste_limestone_clay_minimale.jpg
+Limestone Oyster:cottodeste_limestone_oyster_minimale.jpg
+Limestone Slate:cottodeste_limestone_slate_minimale.jpg]]></names><menuOrder><![CDATA[4]]></menuOrder><special><![CDATA[collection]]></special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template><slug><![CDATA[limestone]]></slug><filename><![CDATA[limestone.xml]]></filename></item></channel>

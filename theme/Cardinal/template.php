@@ -58,7 +58,6 @@
 	</div>
 	
 	<div class="clear"></div>
-        <?php get_i18n_navigation(return_page_slug(),0,99,I18N_SHOW_MENU); ?>
 	
 	<?php get_footer(); ?>
 	

@@ -20,7 +20,7 @@ $htmlCatalogsPatternLink_en = "<div class=\"element\">
         </div>
         <div class=\"text\">
             <p><DESCRIPTION></p>
-            <a target='_blank' href=\"<HREF>\">go to catalog</a>
+            <a target='_blank' href=\"<HREF>\">go to the catalog</a>
         </div>
     </div>";
 

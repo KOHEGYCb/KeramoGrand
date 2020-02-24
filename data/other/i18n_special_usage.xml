@@ -1,109 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<specialpage><name>usage</name><title><![CDATA[usage]]></title><parent/><tags><![CDATA[]]></tags><slug/><template><![CDATA[template.php]]></template><menu/><headercomponent>&lt;link rel="stylesheet" type="text/css" href="&lt;?php get_theme_url(); ?&gt;/css/rgl_least.min.css" media="all" /&gt;&#13;
-&lt;link rel="stylesheet" type="text/css" href="&lt;?php get_theme_url(); ?&gt;/css/rgl_main.css" media="all" /&gt;</headercomponent><showcomponent><![CDATA[<section>
-    <ul id="gallery">
-        <li id="fullPreview"></li>
-<?php 
+<specialpage><name>usage</name><title><![CDATA[usage]]></title><parent/><tags><![CDATA[]]></tags><slug/><template><![CDATA[template.php]]></template><menu/><headercomponent>&lt;link rel="stylesheet" type="text/css" href="&lt;?php get_theme_url(); ?&gt;/css/usage.css" media="all" /&gt;&#13;
+&lt;link rel="stylesheet" type="text/css" href="&lt;?php get_theme_url(); ?&gt;/css/jquery.fancybox.css" /&gt;</headercomponent><showcomponent><![CDATA[<?php 
 
 $field = return_custom_field('usage');
 
 $elementPattern = "
-        <li>
-            <a href='<IMG_URL>'></a>
-            <img data-original='<IMG_URL_SMALL>' src='<URL>/images/effects/white.gif' alt='<NAME>' />
-            <div class='overLayer'></div>
-            <div class='infoLayer'>
-                <ul>
-                    <li><h2><NAME></h2></li>
-                    <li><p>VIEW</p></li>
-                </ul>
-            </div>
-            <div class='projectInfo'><DESCRIPTION></div>
-        </li>";
+        <a class='<USAGE>' data-fancybox='gallery' href='".get_site_url(false)."data/uploads/usage/$field/<IMG_URL>' data-caption='<DESCRIPTION>'>
+            <img src='".get_site_url(false)."data/uploads/usage/$field/small/<IMG_URL>'>
+        </a>
+        ";
 
-$xmlDoc = simplexml_load_file("./xmls/usage.xml");
+$xmlDoc = simplexml_load_file("./xml/usage.xml");
 
 $items = $xmlDoc->xpath('//'.$field.'/item');
-
+$list = "";
+$arr_use = array();
 foreach ($items as $item) {
-    $name = $item->xpath('name')[0];
-    $description = $item->xpath('description')[0];
-    $image_url = $item->xpath('image-url')[0];
-    $image_url_small = $item->xpath('image-url-small')[0];
-    $html = str_replace("<NAME>", $name, $elementPattern);
-    $html = str_replace("<DESCRIPTION>", $description, $html);
-    $html = str_replace("<IMG_URL>", get_site_url(false)."data/uploads/usage/furniture/".$image_url, $html);
-    $html = str_replace("<IMG_URL_SMALL>", get_site_url(false)."data/uploads/usage/furniture/small/".$image_url, $html);
-    $html = str_replace("<URL>", get_theme_url(false), $html);
-    echo "$html";
+    // $html = str_replace("<NAME>", $item->name, $elementPattern);
+    $html = str_replace("<DESCRIPTION>", $item->description, $elementPattern);
+    $html = str_replace("<IMG_URL>", $item->imageUrl, $html);
+    // $html = str_replace("<IMG_URL_SMALL>", get_site_url(false)."data/uploads/usage/furniture/small/".$item->imageUrl, $html);
+    // $html = str_replace("<URL>", get_theme_url(false), $html);
+
+    $usages = $item->xpath('usages/use');
+    $usage = "";
+    foreach ($usages as $use) {
+        $usage = $usage.' '.$use;
+        array_push($arr_use, $use);
+    }
+    $html = str_replace("<USAGE>", $usage, $html);
+    $list = $list.$html;  
 }
+$arr_use = array_unique($arr_use);
 ?>
-    </ul>
+<section>
+        <span>Фильтр: </span><select id="usage" class="usage_select">
+            <option value="">Все</option>
+        <?php 
+            foreach ($arr_use as $key) {
+            echo "<option value='$key'>".str_replace("_", " ", $key)."</option>";
+        }
+        ?>
+        </select>
+
+<p class="gallery_list">
+    <?php echo $list;?>
+</p>
+
+    
+
 </section>
 
-<!-- jQuery libary -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<!-- least.js JS-file -->
-<script src="<?php get_theme_url(); ?>/js/least.js"></script>
-<!-- Lazyload JS-file -->
-<script src="<?php get_theme_url(); ?>/js/jquery.lazyload.js"></script>
-<script type="text/javascript">
-        $(document).ready(function(){
-            $('#gallery').least();
-            document.getElementById('fullPreview').style.maxHeight = document.documentElement.clientHeight - document.getElementsByClassName("header")[0].clientHeight-80 + "px";
-
-        });
-    </script>]]></showcomponent><showcomponent_en><![CDATA[<section>
-    <ul id="gallery">
-        <li id="fullPreview"></li>
-<?php 
+<!-- for fancybox -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="<?php get_theme_url(); ?>/js/jquery.fancybox.js"></script>
+<script src="<?php get_theme_url(); ?>/js/usage.js"></script>]]></showcomponent><showcomponent_en><![CDATA[<?php 
 
 $field = return_custom_field('usage');
 
 $elementPattern = "
-        <li>
-            <a href='<IMG_URL>'></a>
-            <img data-original='<IMG_URL_SMALL>' src='<URL>/images/effects/white.gif' alt='<NAME>' />
-            <div class='overLayer'></div>
-            <div class='infoLayer'>
-                <ul>
-                    <li><h2><NAME></h2></li>
-                    <li><p>VIEW</p></li>
-                </ul>
-            </div>
-            <div class='projectInfo'><DESCRIPTION></div>
-        </li>";
+        <a class='<USAGE>' data-fancybox='gallery' href='".get_site_url(false)."data/uploads/usage/$field/<IMG_URL>' data-caption='<DESCRIPTION>'>
+            <img src='".get_site_url(false)."data/uploads/usage/$field/small/<IMG_URL>'>
+        </a>
+        ";
 
-$xmlDoc = simplexml_load_file("./xmls/usage.xml");
+$xmlDoc = simplexml_load_file("./xml/usage.xml");
 
 $items = $xmlDoc->xpath('//'.$field.'/item');
-
+$list = "";
+$arr_use = array();
 foreach ($items as $item) {
-    $name = $item->xpath('name')[0];
-    $description = $item->xpath('description')[0];
-    $image_url = $item->xpath('image-url')[0];
-    $image_url_small = $item->xpath('image-url-small')[0];
-    $html = str_replace("<NAME>", $name, $elementPattern);
-    $html = str_replace("<DESCRIPTION>", $description, $html);
-    $html = str_replace("<IMG_URL>", get_site_url(false)."data/uploads/usage/furniture/".$image_url, $html);
-    $html = str_replace("<IMG_URL_SMALL>", get_site_url(false)."data/uploads/usage/furniture/small/".$image_url, $html);
-    $html = str_replace("<URL>", get_theme_url(false), $html);
-    echo "$html";
+    // $html = str_replace("<NAME>", $item->name, $elementPattern);
+    $html = str_replace("<DESCRIPTION>", $item->description, $elementPattern);
+    $html = str_replace("<IMG_URL>", $item->imageUrl, $html);
+    // $html = str_replace("<IMG_URL_SMALL>", get_site_url(false)."data/uploads/usage/furniture/small/".$item->imageUrl, $html);
+    // $html = str_replace("<URL>", get_theme_url(false), $html);
+
+    $usages = $item->xpath('usages/use');
+    $usage = "";
+    foreach ($usages as $use) {
+        $usage = $usage.' '.$use;
+        array_push($arr_use, $use);
+    }
+    $html = str_replace("<USAGE>", $usage, $html);
+    $list = $list.$html;  
 }
+$arr_use = array_unique($arr_use);
 ?>
-    </ul>
+<section>
+        <span>Filter: </span><select id="usage" class="usage_select">
+            <option value="">all</option>
+        <?php 
+            foreach ($arr_use as $key) {
+            echo "<option value='$key'>".str_replace("_", " ", $key)."</option>";
+        }
+        ?>
+        </select>
+
+<p class="gallery_list">
+    <?php echo $list;?>
+</p>
+
+    
+
 </section>
 
-<!-- jQuery libary -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<!-- least.js JS-file -->
-<script src="<?php get_theme_url(); ?>/js/least.js"></script>
-<!-- Lazyload JS-file -->
-<script src="<?php get_theme_url(); ?>/js/jquery.lazyload.js"></script>
-<script type="text/javascript">
-        $(document).ready(function(){
-            $('#gallery').least();
-            document.getElementById('fullPreview').style.maxHeight = document.documentElement.clientHeight - document.getElementsByClassName("header")[0].clientHeight-80 + "px";
-
-        });
-    </script>]]></showcomponent_en><defaultcontent><![CDATA[]]></defaultcontent><fields><item><name><![CDATA[usage]]></name><label><![CDATA[usage]]></label><type><![CDATA[text]]></type></item></fields></specialpage>
+<!-- for fancybox -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="<?php get_theme_url(); ?>/js/jquery.fancybox.js"></script>
+<script src="<?php get_theme_url(); ?>/js/usage.js"></script>]]></showcomponent_en><defaultcontent><![CDATA[]]></defaultcontent><fields><item><name><![CDATA[usage]]></name><label><![CDATA[usage]]></label><type><![CDATA[text]]></type></item></fields></specialpage>

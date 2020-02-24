@@ -17,6 +17,7 @@
     $field = return_custom_field('collections');
     $buf = "";
     $counter = 1;
+
     for ($i = 0; $i < strlen($field); $i++){
         if (ord($field[$i]) == 10){
             switch ($counter) {

@@ -30,6 +30,7 @@ if (get_filename_id() == 'load') {
 	<li id="nav_theme" ><a class="theme" href="theme.php" accesskey="<?php echo find_accesskey(i18n_r('TAB_THEME'));?>" ><?php i18n('TAB_THEME');?></a></li>
 	<li id="nav_backups" ><a class="backups" href="backups.php" accesskey="<?php echo find_accesskey(i18n_r('TAB_BACKUPS'));?>" ><?php i18n('TAB_BACKUPS');?></a></li>
 	<li id="nav_plugins" ><a class="plugins" href="plugins.php" accesskey="<?php echo find_accesskey(i18n_r('PLUGINS_NAV'));?>" ><?php i18n('PLUGINS_NAV');?></a></li>
+	<li id="nav_news" ><a class="news" href="news.php" accesskey="<?php echo find_accesskey(i18n_r('NEWS_NAV'));?>" ><?php i18n('NEWS_NAV');?></a></li>
 	
 	<?php exec_action('nav-tab');	?>
 	

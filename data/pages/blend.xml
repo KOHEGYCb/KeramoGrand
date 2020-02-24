@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Thu, 26 Dec 2019 18:15:18 +0100</pubDate><title><![CDATA[Blend]]></title><url><![CDATA[blend]]></url><metad><![CDATA[]]></metad><menu><![CDATA[Blend]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[laminam-1]]></parent><content><![CDATA[&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget molestie leo. Fusce et dictum ipsum. Mauris commodo imperdiet ultricies. Suspendisse tincidunt pretium diam ut placerat. Morbi a metus in neque commodo accumsan suscipit a enim. Nulla facilisi. Fusce ultrices placerat lacinia. Integer id eleifend lectus. Fusce lectus orci, eleifend et orci a, blandit bibendum orci.&lt;/p&gt;
-]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate>Thu, 19 Dec 2019 18:29:10 +0100</creDate><user><![CDATA[admin]]></user><menuOrder><![CDATA[1]]></menuOrder><dir><![CDATA[blend]]></dir><names><![CDATA[Blend Nero:img23703179.jpg
-Gridgio:img38248206.jpg
-qweewqe:img83210260.jpg]]></names><special>collection</special><meta><![CDATA[, _special_collection, laminam, blend]]></meta><template><![CDATA[template.php]]></template></item>
+<item><pubDate>Sat, 25 Jan 2020 19:06:57 +0300</pubDate><title><![CDATA[Blend]]></title><url><![CDATA[blend]]></url><metad><![CDATA[]]></metad><menu><![CDATA[Blend]]></menu><menuStatus><![CDATA[]]></menuStatus><parent><![CDATA[laminam]]></parent><content><![CDATA[&lt;p&gt;Воплощает гибкость и изменчивость.&lt;/p&gt;
+
+&lt;p&gt;Вдохновленный индустриальным бетоном дизайн создает особый эффект наполненности и минимализма.&lt;/p&gt;
+]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate>Thu, 16 Jan 2020 18:14:06 +0300</creDate><user><![CDATA[admin]]></user><dir><![CDATA[laminam_blend]]></dir><names><![CDATA[Blend - Avorio:blend_-_avorio1.jpg
+Blend - Grigio:blend_-_grigio1.jpg
+Blend - Nero:blend_-_nero1.jpg]]></names><menuOrder><![CDATA[6]]></menuOrder><special>collection</special><meta><![CDATA[, _special_collection]]></meta><template><![CDATA[collection.php]]></template></item>

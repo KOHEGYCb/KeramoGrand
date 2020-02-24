@@ -3,7 +3,7 @@
 	<catalog id="1">
 		<names>
 			<name lang="ru">Blustyle&lt;/br&gt;Product Book</name>
-			<name lang="en"></name>
+			<name lang="en">Blustyle&lt;/br&gt;Product Book</name>
 		</names>
 		<descriptions>
 			<description lang="ru"></description>
@@ -30,20 +30,20 @@
 			<name lang="en">Kerlite&lt;/br&gt;technical guide</name>
 		</names>
 		<descriptions>
-			<description lang="ru"></description>
-			<description lang="en"></description>
+			<description lang="ru">Благодаря данному техническому руководству работа с керамогранитными плитами Kerlite станет для вас легкой и прятной.</description>
+			<description lang="en">Thanks to this technical guide, the work with Kerlite ceramic plates will be easy and pleasant for you.</description>
 		</descriptions>
 		<url>http://ceramogrand.by/data/uploads/catalogs/kerlite-technical-guide/kerlite-technical-guide.pdf</url>
 		<img>http://ceramogrand.by/data/uploads/catalogs/kerlite-technical-guide/kerlite-technical-guide.jpg</img>
 	</catalog>
 	<catalog id="4">
 		<names>
-			<name lang="ru">Bellissimo&lt;/br&gt;основной каталог</name>
-			<name lang="en">Bellissimo&lt;/br&gt;general catalog</name>
+			<name lang="ru">Bellissimo&lt;/br&gt;Общий каталог</name>
+			<name lang="en">Bellissimo&lt;/br&gt;General catalog</name>
 		</names>
 		<descriptions>
-			<description lang="ru"></description>
-			<description lang="en"></description>
+			<description lang="ru">Беллиссимо: стиль Италии&lt;/br&gt;Общий каталог 2020</description>
+			<description lang="en">Bellissimo: Italian style&lt;/br&gt;General catalog 2020</description>
 		</descriptions>
 		<url>http://ceramogrand.by/data/uploads/catalogs/catalogo_generale_bellissimo_2020/catalogo_generale_bellissimo_2020.pdf</url>
 		<img>http://ceramogrand.by/data/uploads/catalogs/catalogo_generale_bellissimo_2020/catalogo_generale_bellissimo_2020.jpg</img>

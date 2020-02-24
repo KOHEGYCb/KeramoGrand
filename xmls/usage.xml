@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <usage>
     <furniture>
-        <item id="01">
+        <item id="1">
             <name></name>
             <description></description>
             <image-url>cde-cementproject-color00-cem-55mm-color40-cem-55mm-office-001.jpg</image-url>
@@ -9,7 +9,7 @@
             	<collection></collection>
             </collections>
         </item>
-        <item id="01">
+        <item id="2">
             <name></name>
             <description></description>
             <image-url>cde-cementproject-color00-cem-55mm-color40-cem-55mm-office-002.jpg</image-url>
@@ -17,7 +17,7 @@
             	<collection></collection>
             </collections>
         </item>
-        <item id="01">
+        <item id="3">
             <name></name>
             <description></description>
             <image-url>cde-cementproject-color20-cem-work-living-1.jpg</image-url>
@@ -25,7 +25,7 @@
             	<collection></collection>
             </collections>
         </item>
-        <item id="01">
+        <item id="4">
             <name></name>
             <description></description>
             <image-url>cottodeste_black_white_am-biente_black.jpg</image-url>
@@ -33,7 +33,7 @@
             	<collection></collection>
             </collections>
         </item>
-        <item id="01">
+        <item id="5">
             <name></name>
             <description></description>
             <image-url>cottodeste_black_white_am-biente_black_particolare_4.jpg</image-url>
@@ -41,7 +41,7 @@
             	<collection></collection>
             </collections>
         </item>
-                <item id="01">
+        <item id="6">
             <name></name>
             <description></description>
             <image-url>cottodeste_cadore_ambiente_malga_rett.jpg</image-url>
@@ -49,7 +49,7 @@
             	<collection></collection>
             </collections>
         </item>
-        <item id="01">
+        <item id="7">
             <name></name>
             <description></description>
             <image-url>cottodeste_exedra_ambiente_amadeus_silk_rett.jpg</image-url>
@@ -57,7 +57,7 @@
             	<collection></collection>
             </collections>
         </item>
-        <item id="01">
+        <item id="8">
             <name></name>
             <description></description>
             <image-url>cottodeste_exedra_ambiente_calacatta_4.jpg</image-url>
@@ -65,7 +65,7 @@
             	<collection></collection>
             </collections>
         </item>
-        <item id="01">
+        <item id="9">
             <name></name>
             <description></description>
             <image-url>cottodeste_exedra_ambiente_calacatta_glossy.jpg</image-url>
@@ -73,7 +73,7 @@
             	<collection></collection>
             </collections>
         </item>
-        <item id="01">
+        <item id="10">
             <name></name>
             <description></description>
             <image-url>cottodeste_exedra_ambiente_calacatta_lux.jpg</image-url>
@@ -81,7 +81,7 @@
             	<collection></collection>
             </collections>
         </item>
-                <item id="01">
+        <item id="11">
             <name></name>
             <description></description>
             <image-url>cottodeste_exedra_ambiente_calacatta_particolare.jpg</image-url>
@@ -89,7 +89,7 @@
             	<collection></collection>
             </collections>
         </item>
-        <item id="01">
+        <item id="12">
             <name></name>
             <description></description>
             <image-url>cottodeste_exedra_ambiente_pulpis_2.jpg</image-url>
@@ -97,7 +97,7 @@
             	<collection></collection>
             </collections>
         </item>
-        <item id="01">
+        <item id="13">
             <name></name>
             <description></description>
             <image-url>cottodeste_limestone_ambiente_slate_particolare.jpg</image-url>
@@ -105,7 +105,7 @@
             	<collection></collection>
             </collections>
         </item>
-        <item id="01">
+        <item id="14">
             <name></name>
             <description></description>
             <image-url>cottodeste_materica_ambiente_ardesia_lack_2.jpg</image-url>
@@ -113,7 +113,7 @@
             	<collection></collection>
             </collections>
         </item>
-        <item id="01">
+        <item id="15">
             <name></name>
             <description></description>
             <image-url>cottodeste_materica_ambiente_bianco_lack_rett.jpg</image-url>
@@ -121,7 +121,7 @@
             	<collection></collection>
             </collections>
         </item>
-                <item id="01">
+        <item id="16">
             <name></name>
             <description></description>
             <image-url>cottodeste_materica_ambiente_cemento_3.jpg</image-url>
@@ -129,7 +129,7 @@
             	<collection></collection>
             </collections>
         </item>
-        <item id="01">
+        <item id="17">
             <name></name>
             <description></description>
             <image-url>cottodeste_metal_ambiente_platinum_1.jpg</image-url>
@@ -137,7 +137,7 @@
             	<collection></collection>
             </collections>
         </item>
-        <item id="01">
+        <item id="18">
             <name></name>
             <description></description>
             <image-url>cottodeste_rain_grey_glossy_amb_100x300-100x100.jpg</image-url>
@@ -145,7 +145,7 @@
             	<collection></collection>
             </collections>
         </item>
-        <item id="01">
+        <item id="19">
             <name></name>
             <description></description>
             <image-url>elegance-via-condotti-5plus_amb.jpg</image-url>
@@ -153,12 +153,44 @@
             	<collection></collection>
             </collections>
         </item>
-        <item id="01">
+        <item id="20">
             <name></name>
             <description></description>
             <image-url>slate_natural_100x300.jpg</image-url>
             <collections>
             	<collection></collection>
+            </collections>
+        </item>
+        <item id="21">
+            <name></name>
+            <description></description>
+            <image-url>bsv-2.jpg</image-url>
+            <collections>
+                <collection></collection>
+            </collections>
+        </item>
+        <item id="22">
+            <name></name>
+            <description></description>
+            <image-url>bsv-1.jpg</image-url>
+            <collections>
+                <collection></collection>
+            </collections>
+        </item>
+        <item id="23">
+            <name></name>
+            <description></description>
+            <image-url>pds-antracite-aura2-4.jpg</image-url>
+            <collections>
+                <collection></collection>
+            </collections>
+        </item>
+        <item id="24">
+            <name></name>
+            <description></description>
+            <image-url>pds-antracite-aura2-5.jpg</image-url>
+            <collections>
+                <collection></collection>
             </collections>
         </item>
     </furniture>

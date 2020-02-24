@@ -1,0 +1,33 @@
+.usage_select{
+	background: #242328;
+	background-image: url(../images/arrow-down.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+	border: none;
+	border-bottom: 1px solid #b4afab;
+	color: #d6d6d6;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none !important;
+}
+.usage_select:hover{
+	cursor: pointer;
+}
+
+p.gallery_list{
+	margin-top: 15px;
+}
+p.gallery_list>a{
+	text-decoration: none;
+}
+p.gallery_list>a>img{
+	margin: 2px;
+}
