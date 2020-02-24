@@ -2,108 +2,28 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title>test</title>
-        <link href="styles.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" type="text/css" href="gallery.css">
-        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-
-    </head>
+      </head>
     <body>
-        <div class="header">
-
-            <div class="logo">
-                logo
+        <form>
+            <select type="" name="formfactor">
+                <option value="">Formfactor</option>
+                <option>Wide</option>
+                <option>Standart</option>
+            </select>
+            <label for="formfactor">formfactor</label>
+            <br/>
+            <select type="" name="factory">
+                <option value="">factory</option>
+                <option>Laminam</option>
+                <option>Kerlit</option>
+            </select>
+            <label for="factory">factory</label>
+            <br/>
+            <input type="text" name="collection"><label for="collection">Collection</label>
+            <div>
+                <input type="text" name="color"><label for="color">Color</label>
             </div>
-
-            <div class="btn_menu" id="btn_menu">
-                menu
-            </div>
-
-            <div class="btn_lang">
-                lang
-                <ul>
-                    <li>ru</li>
-                    <li>en</li>
-                </ul>
-            </div>
-
-        </div>
-
-        <div class="nav" id="nav">
-
-            <ul>
-                <div id="place"></div>
-                <li class="current"><a>Главная</a></li>
-                <li class="current"><a href="">О нас</a></li>
-                <li id="kollections">
-                    <a>Коллекции</a>
-                    <ul>
-                        <li>
-                            <a href="">Широкоформат</a>
-                            <ul>
-                                <li><a href="">Kerlite</a></li>
-                                <li><a href="">Laminam</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="">Стандарт</a>
-                            <ul>
-                                <li><a href="">BlueStyle</a></li>
-                                <li><a href="">Что-то еще</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li><a>Изделия</a></li>
-                <li><a href="">Видео</a></li>
-                <li><a href="">Контакты</a></li>
-            </ul>
-        </div>
-        
-        <div class="container">
-
-
-            <div id="gallery">
-                <div class="element" href="" title="name" color="w">
-                    <a href="" title="name">
-                        <img src="http://localhost/KeramoGrand/data/uploads/collection/blend/img23703179.jpg" alt="">
-                        <span>Name</span>
-                    </a>
-                </div>
-                <div class="element" color="w">
-                    <a href="" title="name">
-                        <img src="http://localhost/KeramoGrand/data/uploads/collection/blend/img83210260.jpg" alt="">
-                        <span>Name</span>
-                    </a>
-                </div>
-                <div class="element"  color="w">
-                    <a href="" title="name">
-                        <img src="http://localhost/KeramoGrand/data/uploads/collection/calce/img12430648.jpg" alt="">
-                        <span>Name</span>
-                    </a>
-                </div>
-                <div class="element" color="b">
-                    <a href="" title="name">
-                        <img src="http://localhost/KeramoGrand/data/uploads/collection/calce/img27365662.jpg" alt="">
-                        <span>Name</span>
-                    </a>
-                </div>
-                <div class="element" color="b">
-                    <a href="" title="name">
-                        <img src="http://localhost/KeramoGrand/data/uploads/collection/calce/img34935222.jpg" alt="">
-                        <span>Name</span>
-                    </a>
-                </div>
-                <div class="element" color="w">
-                    <a href="" title="name">
-                        <img src="http://localhost/KeramoGrand/data/uploads/collection/calce/img44754396.jpg" alt="">
-                        <span>Name</span>
-                    </a>
-                </div>
-            </div>
-
-
-        </div>
+        </form>        
     </body>
 
-<script src="js.js"></script>
-<script type="text/javascript" src="gallery.js"></script>
 </html>

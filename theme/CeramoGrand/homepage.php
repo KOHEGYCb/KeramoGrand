@@ -26,6 +26,7 @@ if (!defined('IN_GS')) {
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="<?php get_theme_url(); ?>/css/styles.css" media="all" />
         <link rel="stylesheet" type="text/css" href="<?php get_theme_url(); ?>/css/footer.css" media="all" />
+        <link rel="stylesheet" type="text/css" href="<?php get_theme_url(); ?>/css/preloader.css" media="all" />
         
 <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
         <link href="<?php get_theme_url(); ?>/css/fotorama.css" rel="stylesheet">
@@ -34,6 +35,13 @@ if (!defined('IN_GS')) {
     </head>
     <body>
 
+<div id="preloader" class="pre_bg">
+            <div class="container">
+                <div id="preloader_c" class="c"><span>C</span></div>
+                <div id="preloader_text" class="text"><span>ERAMO<br/>GRAN</span></div>
+                <div id="preloader_d" class="d"><span>D</span></div>
+            </div>
+        </div>
         <?php get_i18n_component('header'); ?>
 
         <div class="nav" id="nav">
@@ -52,12 +60,27 @@ if (!defined('IN_GS')) {
                 <!--</h1> -->
             <!-- <span class="separatore"></span> -->
             <div id="slider" style="overflow: hidden;">
-                <div class="fotorama" data-width="100%" data-height="100%" data-fit="cover" data-nav="none" data-loop="true" data-autoplay="true">
-                    <img src="<?php get_theme_url(); ?>/images/1.jpg">
-                    <img src="<?php get_theme_url(); ?>/images/1.jpg">
-                    <img src="<?php get_theme_url(); ?>/images/1.jpg">
+                <div class="fotorama" data-width="100%" data-height="100%" data-fit="cover" data-nav="none" data-loop="true" data-autoplay="5000">
+<?php
+    
+    $a = './data/uploads/main_page_slider';
+    $sliderArr = scandir($a);
+    unset($sliderArr[0],$sliderArr[1]);
+
+    shuffle($sliderArr);
+    $colHTML = "";
+    foreach ($sliderArr as $name) {
+        $link = get_site_url(false) . "data/uploads/main_page_slider/" . $name;
+        $colHTML = $colHTML . "<img src=\"" . $link . "\">";
+    }
+    echo "$colHTML";
+?>
                 </div>
             </div>
+
+
+
+
 <?php 
 
 get_page_content(); 
@@ -76,4 +99,5 @@ get_page_content();
     </body>
     <script src="<?php get_theme_url(); ?>/js/js.js"></script>
     <script src="<?php get_theme_url(); ?>/js/fotorama.js"></script>
+    <script src="<?php get_theme_url(); ?>/js/preloader.js"></script>
 </html>

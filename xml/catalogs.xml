@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogs>
+	<catalog id="1">
+		<names>
+			<name lang="ru">Blustyle&lt;/br&gt;Product Book</name>
+			<name lang="en"></name>
+		</names>
+		<descriptions>
+			<description lang="ru"></description>
+			<description lang="en"></description>
+		</descriptions>
+		<url>http://ceramogrand.by/data/uploads/catalogs/BLU_Product_Book_2019_low/BLU_Product_Book_2019_low.pdf</url>
+		<img>http://ceramogrand.by/data/uploads/catalogs/BLU_Product_Book_2019_low/BLU_Product_Book_2019_low.jpg</img>
+	</catalog>
+	<catalog id="2">
+		<names>
+			<name lang="ru">Kerlite&lt;/br&gt;основная книга</name>
+			<name lang="en">Kerlite&lt;/br&gt;general book and references</name>
+		</names>
+		<descriptions>
+			<description lang="ru"></description>
+			<description lang="en"></description>
+		</descriptions>
+		<url>http://ceramogrand.by/data/uploads/catalogs/2019_kerlite_general_catalogue/2019-kerlite-general-catalogue.pdf</url>
+		<img>http://ceramogrand.by/data/uploads/catalogs/2019_kerlite_general_catalogue/2019_kerlite_general_catalogue.jpg</img>
+	</catalog>
+	<catalog id="3">
+		<names>
+			<name lang="ru">Kerlite&lt;/br&gt;техническое руководство</name>
+			<name lang="en">Kerlite&lt;/br&gt;technical guide</name>
+		</names>
+		<descriptions>
+			<description lang="ru"></description>
+			<description lang="en"></description>
+		</descriptions>
+		<url>http://ceramogrand.by/data/uploads/catalogs/kerlite-technical-guide/kerlite-technical-guide.pdf</url>
+		<img>http://ceramogrand.by/data/uploads/catalogs/kerlite-technical-guide/kerlite-technical-guide.jpg</img>
+	</catalog>
+	<catalog id="4">
+		<names>
+			<name lang="ru">Bellissimo&lt;/br&gt;основной каталог</name>
+			<name lang="en">Bellissimo&lt;/br&gt;general catalog</name>
+		</names>
+		<descriptions>
+			<description lang="ru"></description>
+			<description lang="en"></description>
+		</descriptions>
+		<url>http://ceramogrand.by/data/uploads/catalogs/catalogo_generale_bellissimo_2020/catalogo_generale_bellissimo_2020.pdf</url>
+		<img>http://ceramogrand.by/data/uploads/catalogs/catalogo_generale_bellissimo_2020/catalogo_generale_bellissimo_2020.jpg</img>
+	</catalog>
+	<catalog id="5">
+		<names>
+			<name lang="ru">Laminam&lt;/br&gt;каталог 2019</name>
+			<name lang="en">Laminam&lt;/br&gt;catalog 2019</name>
+		</names>
+		<descriptions>
+			<description lang="ru"></description>
+			<description lang="en"></description>
+		</descriptions>
+		<url>http://ceramogrand.by/data/uploads/catalogs/laminam_katalog_2019_present_2/laminam_katalog_2019_present_2.pdf</url>
+		<img>http://ceramogrand.by/data/uploads/catalogs/laminam_katalog_2019_present_2/laminam_katalog_2019_present_2.jpg</img>
+	</catalog>
+</catalogs>

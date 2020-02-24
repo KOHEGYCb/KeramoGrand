@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <formfactor type="wide">
+        <factory name="Laminam">
+            <collection name="BLEND">
+                <color name="NERO">
+                    <variant id="1">
+                        <img>url.jpg</img>
+                    </variant>
+                </color>
+                <color name="GRIGIO">
+                    <variant id="1">
+                        <img>url.jpg</img>
+                    </variant>
+                </color>
+                <color name="AVORIO">
+                    <variant id="1">
+                        <img>url.jpg</img>
+                    </variant>
+                </color>
+            </collection>
+        </factory>
+        <factory name="laminam">
+            <collection name="blend">
+                <color name="nero">
+                    <variants>
+                        <variant id="1">
+                            <img>url.jpg</img>
+                        </variant>
+                    </variants>
+                    <formats>
+                        <format>
+                            <width>3000</width>
+                            <height>1000</height>
+                            <thicknesses>
+                                <thickness>3+</thickness>
+                                <thickness>5</thickness>
+                            </thicknesses>
+                        </format>
+                    </formats>
+                </color>
+            </collection>
+            <collection name="pds">
+                <color name="avorio">
+                    <variants>
+                        <variant id="1">
+                            <img>url.jpg</img>
+                        </variant>
+                    </variants>
+                    <formats>
+                        <format>
+                            <width>3000</width>
+                            <height>1000</height>
+                            <thicknesses>
+                                <thickness>3+</thickness>
+                                <thickness>5</thickness>
+                            </thicknesses>
+                        </format>
+                    </formats>
+                </color>
+                <color name="grigio">
+                    <variants>
+                        <variant id="1">
+                            <img>url.jpg</img>
+                        </variant>
+                    </variants>
+                    <formats>
+                        <format>
+                            <width>3000</width>
+                            <height>1000</height>
+                            <thicknesses>
+                                <thickness>3+</thickness>
+                                <thickness>5</thickness>
+                            </thicknesses>
+                        </format>
+                        <format>
+                            <width>3240</width>
+                            <height>1620</height>
+                            <thicknesses>
+                                <thickness>5+</thickness>
+                                <thickness>12+</thickness>
+                            </thicknesses>
+                        </format>
+                    </formats>
+                </color>
+            </collection>
+        </factory>      
+    </formfactor>
+    <formfactor type="standart">
+        
+    </formfactor>
+</database>
+
+<production>
+    <furniture>
+        <item id="01">
+            <name>Taburet №1</name>
+            <collections>
+                <collection-name>Blend</collection-name>
+                <collection-name>LITHOS</collection-name>
+            </collections>
+            <description>Описание</description>
+            <image-url>ссылка на картинку</image-url>
+        </item>
+    </furniture>
+    <facade>
+        
+    </facade>
+    <inside>
+        
+    </inside>
+</production>

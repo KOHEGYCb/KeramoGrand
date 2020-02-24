@@ -28,12 +28,17 @@ if (!defined('IN_GS')) {
         <link rel="stylesheet" type="text/css" href="<?php get_theme_url(); ?>/css/footer.css" media="all" />
         <link rel="stylesheet" type="text/css" href="<?php get_theme_url(); ?>/css/preloader.css" media="all" />
 
+        <link rel="stylesheet" type="text/css" href="<?php get_theme_url(); ?>/css/rgl_least.min.css" media="all" />
+        <link rel="stylesheet" type="text/css" href="<?php get_theme_url(); ?>/css/rgl_main.css" media="all" />
+
     </head>
     <body>
         <div id="preloader" class="pre_bg">
-            <div id="preloader_c" class="c"><span>C</span></div>
-            <div id="preloader_text" class="text"><span>ERAMO<br/>GRAN</span></div>
-            <div id="preloader_d" class="d"><span>D</span></div>
+            <div class="container">
+                <div id="preloader_c" class="c"><span>C</span></div>
+                <div id="preloader_text" class="text"><span>ERAMO<br/>GRAN</span></div>
+                <div id="preloader_d" class="d"><span>D</span></div>
+            </div>
         </div>
 
         <?php get_i18n_component('header'); ?>
@@ -53,7 +58,23 @@ if (!defined('IN_GS')) {
 
 get_page_content(); 
 
+
+
+
 ?>
+
+
+<!--     
+
+            
+            
+
+ -->
+
+
+
+
+
 
 
         </div>	
@@ -67,4 +88,10 @@ get_page_content();
     </body>
     <script src="<?php get_theme_url(); ?>/js/js.js"></script>
     <script src="<?php get_theme_url(); ?>/js/preloader.js"></script>
+
+
+
+
+
+
 </html>

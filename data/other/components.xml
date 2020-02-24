@@ -3,7 +3,7 @@
             &lt;div class=&quot;upBlock&quot;&gt;&lt;/div&gt;
             &lt;div class=&quot;footerInfoBlock&quot;&gt;
                 &lt;div class=&quot;footerLogo&quot;&gt;&lt;a href=&quot;&lt;?php get_site_url(); ?&gt;&quot;&gt;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/logo_gr.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&quot;footerPhone&quot;&gt;&lt;span&gt;Телефон: &lt;br/&gt;+375 (44) 147-67-68&lt;/span&gt;&lt;/div&gt;
+                &lt;div class=&quot;footerPhone&quot;&gt;&lt;span&gt;Телефон: &lt;br/&gt;+375 (44) 147-67-68&lt;br&gt;+375 (29) 144-34-33&lt;/span&gt;&lt;/div&gt;
                 &lt;div class=&quot;footerLocation&quot;&gt;&lt;span&gt;Адрес: &lt;br/&gt;г. Минск, ул. Мазурова, 1 &lt;br/&gt;ТЦ &quot;Камелот&quot; первый этаж, левое крыло&lt;/span&gt;&lt;/div&gt;
             &lt;/div&gt;
             &lt;div class=&quot;downBlock&quot;&gt;&lt;/div&gt;
@@ -11,7 +11,7 @@
             &lt;div class=&quot;upBlock&quot;&gt;&lt;/div&gt;
             &lt;div class=&quot;footerInfoBlock&quot;&gt;
                 &lt;div class=&quot;footerLogo&quot;&gt;&lt;a href=&quot;&lt;?php get_site_url(); ?&gt;&quot;&gt;&lt;img src=&quot;&lt;?php get_theme_url(); ?&gt;/images/logo_gr.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
-                &lt;div class=&quot;footerPhone&quot;&gt;&lt;span&gt;Phone: &lt;br/&gt;+375 (44) 147-67-68&lt;/span&gt;&lt;/div&gt;
+                &lt;div class=&quot;footerPhone&quot;&gt;&lt;span&gt;Phone: &lt;br/&gt;+375 (44) 147-67-68&lt;br&gt;+375 (29) 144-34-33&lt;/span&gt;&lt;/div&gt;
                 &lt;div class=&quot;footerLocation&quot;&gt;&lt;span&gt;Address: &lt;br/&gt;Minsk, Mazurova str., 1 &lt;br/&gt;Shopping center &quot;Camelot&quot; first floor&lt;/span&gt;&lt;/div&gt;
             &lt;/div&gt;
             &lt;div class=&quot;downBlock&quot;&gt;&lt;/div&gt;

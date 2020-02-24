@@ -1,3 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Thu, 19 Dec 2019 16:32:34 +0100</pubDate><title><![CDATA[О нас]]></title><url><![CDATA[o-nas]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[О нас]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;p&gt;О нас&lt;/p&gt;
-]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate>Wed, 18 Dec 2019 16:21:51 +0100</creDate><user><![CDATA[admin]]></user><menuOrder><![CDATA[1]]></menuOrder></item>
+<item><pubDate>Tue, 21 Jan 2020 18:47:39 +0300</pubDate><title><![CDATA[О нас]]></title><url><![CDATA[o-nas]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[О нас]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;p&gt;Адрес: г. Минск ТЦ Камелот ул. Мазурова 1&lt;/p&gt;
+
+&lt;p&gt;время работы: с 10-00 до 20-00&lt;/p&gt;
+
+&lt;p&gt;БЕЗ ВЫХОДНЫХ&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe frameborder=&quot;0&quot; height=&quot;600&quot; src=&quot;https://yandex.ru/map-widget/v1/?um=constructor%3A2f04d9303d3fd2c6dce4e9b7c01b51147df594eebb8a5d250bc1f83c595e789f&amp;amp;source=constructor&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author><creDate>Wed, 18 Dec 2019 16:21:51 +0100</creDate><user><![CDATA[admin]]></user><menuOrder><![CDATA[2]]></menuOrder></item>

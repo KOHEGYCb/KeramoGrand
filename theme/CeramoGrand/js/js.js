@@ -28,4 +28,3 @@ function removeHref(open){
 
 document.getElementById('content').style.minHeight = "" + (document.documentElement.clientHeight - document.getElementsByClassName("header")[0].clientHeight - document.getElementsByClassName("footer")[0].clientHeight - 32) + "px";
 
-document.getElementById('slider').style.height = "" + (document.documentElement.clientHeight - document.getElementsByClassName("header")[0].clientHeight) + "px";

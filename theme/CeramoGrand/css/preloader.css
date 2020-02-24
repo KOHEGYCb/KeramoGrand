@@ -14,7 +14,7 @@
 
 .pre_bg{
 	background: #201f24;
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	height: 100%;
 	font-size: 3em;
@@ -25,11 +25,19 @@
 	animation: preloader .5s .7s;
 	animation-fill-mode: forwards;	
 }
+
+.pre_bg>div.container{
+	/*outline: 1px solid red;*/
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
 .pre_bg div.text{
 	position: relative;
 	left: 50%;
-	top: 50%;
-	transform: translate(-55%, -45%);
+	/*top: 50%;*/
+	transform: translateX(-55%);
 	text-align: center;
 	width: 100px;
 	height: 130px;
@@ -48,6 +56,7 @@
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
+    /*outline: 1px solid red;*/
 }
 
 .pre_bg div.text::before,
@@ -75,13 +84,15 @@
 	transform: translate(-50%, -50%);
 	text-align: center;
 	width: 130px;
-	height: 200px;
+	/*height: 175px;*/
 	transition: .3s;
 	/*overflow: hidden;*/
 	font-size: 3em;
 	font-family: "CD";
 	background: #201f24;
 	z-index: 10;
+	line-height: 3em;
+	/*outline: 1px solid green;*/
 }
 
 .pre_bg div.c{
